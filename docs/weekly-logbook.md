@@ -8,7 +8,7 @@
 2. Created team profile documentation
 3. Created initial IT venture idea log
 
-### What We Learned
+### What We Learned 
 
 1. How to use GitHub repositories
 2. How to create Markdown documentation
