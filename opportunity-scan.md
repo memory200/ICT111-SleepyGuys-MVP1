@@ -18,22 +18,13 @@
 
 ## Step 5: Real IT Opportunities
 
+## Real IT Opportunities
+
 | Problem | Target User | Current Solution | IT Solution | Technology |
 |----------|------------|------------------|------------|------------|
-| Problem 1 | ... | ... | ... | ... |
-| Problem 2 | ... | ... | ... | ... |
-| Problem 3 | ... | ... | ... | ... |
-| Problem 4 | ... | ... | ... | ... |
-| Problem 5 | ... | ... | ... | ... |
-| Problem 6 | ... | ... | ... | ... |
-
-## Step 6: Technology Feasibility
-
-| Opportunity | Technology | Feasible? | Reason |
-|-------------|------------|-----------|--------|
-| Opportunity 1 | ... | Yes | ... |
-| Opportunity 2 | ... | Yes | ... |
-| Opportunity 3 | ... | Yes | ... |
-| Opportunity 4 | ... | Yes | ... |
-| Opportunity 5 | ... | Yes | ... |
-| Opportunity 6 | ... | Yes | ... |
+| Lost items on campus | Students | Ask friends or post on Facebook | Lost & Found Website | HTML, CSS, JavaScript |
+| Manual attendance tracking | Teachers | Paper attendance sheets | Attendance System | PHP, MySQL |
+| Long cafeteria queues | Students | Wait in line | Food Ordering App | HTML, CSS, JavaScript |
+| Difficulty finding classrooms | New students | Ask others | Campus Navigation App | Google Maps API |
+| Event information not reaching students | Students | Social media posts | Event Management System | Website |
+| Library book search takes time | Students | Search manually | Library Search System | MySQL, PHP |
