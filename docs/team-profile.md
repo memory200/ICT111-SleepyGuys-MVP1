@@ -9,7 +9,8 @@ SleepyGuys
 |---|---|---|---|
 | 6702854 | Htun Naung Oo | Product Lead | Define problem, target users, and project direction |
 | 6610464 | Aung Khant Zayar Oo | Technical Lead | Manage repository and prototype development |
-| 6708563 | Min Khant Maung Maung | UX/UI Lead + Documentation Lead | Design interface and maintain documentation |
+| 6708563 | Min Khant Maung Maung | UX/UI Lead | Design interface and maintain documentation |
+| 6709782 | Aung Htet Thu | Documentation Lead | Find and manage documents |
 
 ## Team Skills Inventory
 
@@ -18,6 +19,8 @@ SleepyGuys
 | Htun Naung Oo | HTML, CSS | Canva | Figma |
 | Aung Khant Zayar Oo | JavaScript | Presentation | Team Coordination |
 | Min Khant Maung Maung | Microsoft Office | UI Layout | Communication |
+| Aung Htet Thu | Microsoft Office | Html,CSS | JavaScript |
+
 
 ## Team Working Agreement
 
