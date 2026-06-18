@@ -38,4 +38,4 @@ Reasons:
 - The problem can be validated through interviews in Lab 03.
 - The project is feasible to prototype using HTML, CSS, and JavaScript.
 - The team has the skills and resources required to complete it within the semester.
-- It received one of the highest NUF scores.
+- It received one of the highest NUF scores. 
