@@ -1,14 +1,4 @@
-# Lab 02 Opportunity Scanning
 ## Ideas Reviewed from Lab 1
-
-| Idea | Problem Area | Target User | Current Alternative | Initial Technology Direction |
-|------|-------------|-------------|---------------------|-----------------------------|
-| Online Food Ordering System | Long waiting time for food | Students | Ordering in person | Website |
-| Student Attendance App | Manual attendance tracking | Teachers and Students | Paper attendance sheets | Mobile App |
-| Event Management System | Students miss event information | Students | Social media posts | Web Application |
-# Lab 02 Opportunity Scanning
-
-## Step 4: Ideas Reviewed from Lab 1
 
 | Idea | Problem Area | Target User | Current Alternative | Initial Technology Direction |
 |------|-------------|-------------|---------------------|-----------------------------|
@@ -16,7 +6,7 @@
 | Smart Attendance | Manual attendance | Teachers | Paper records | Mobile App |
 | Event Management | Event tracking difficulty | Students | Facebook Posts | Web Platform |
 
-## Step 5: Real IT Opportunities
+
 
 ## Real IT Opportunities
 
@@ -29,6 +19,7 @@
 | Event information not reaching students | Students | Social media posts | Event Management System | Website |
 | Library book search takes time | Students | Search manually | Library Search System | MySQL, PHP |
 
+## Map Technology Feasibility
 
 | Idea | Prototype Type | Tools Needed | Data Needed | Difficulty | Feasible This Semester? |
 |------|---------------|-------------|------------|------------|-------------------------|
@@ -40,7 +31,7 @@
 | Library Book Search System | Simple Web App | HTML, CSS, JavaScript, Airtable | Book titles, authors, availability | Medium | Yes |
 
 
-After reviewing the NUF scores, our team selected the Lost & Found System as our semester project.
+## After reviewing the NUF scores, our team selected the Lost & Found System as our semester project.
 
 Reasons:
 - It solves a real problem faced by students.
