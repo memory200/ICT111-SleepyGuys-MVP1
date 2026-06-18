@@ -12,9 +12,9 @@
 
 | Idea | Problem Area | Target User | Current Alternative | Initial Technology Direction |
 |------|-------------|-------------|---------------------|-----------------------------|
-| Idea 1 | ... | ... | ... | ... |
-| Idea 2 | ... | ... | ... | ... |
-| Idea 3 | ... | ... | ... | ... |
+| Online Food Ordering | Ordering takes time | Students | Phone calls | Web Application |
+| Smart Attendance | Manual attendance | Teachers | Paper records | Mobile App |
+| Event Management | Event tracking difficulty | Students | Facebook Posts | Web Platform |
 
 ## Step 5: Real IT Opportunities
 
