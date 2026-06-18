@@ -29,7 +29,6 @@
 | Event information not reaching students | Students | Social media posts | Event Management System | Website |
 | Library book search takes time | Students | Search manually | Library Search System | MySQL, PHP |
 
-## Step 6: Map Technology Feasibility
 
 | Idea | Prototype Type | Tools Needed | Data Needed | Difficulty | Feasible This Semester? |
 |------|---------------|-------------|------------|------------|-------------------------|
@@ -39,3 +38,13 @@
 | School Announcement System | Simple Web App | HTML, CSS, JavaScript | Announcement title, content, date | Low | Yes |
 | Campus Navigation App | Interactive Prototype | Figma, Google Maps | Building names, campus map | Medium | Yes |
 | Library Book Search System | Simple Web App | HTML, CSS, JavaScript, Airtable | Book titles, authors, availability | Medium | Yes |
+
+
+After reviewing the NUF scores, our team selected the Lost & Found System as our semester project.
+
+Reasons:
+- It solves a real problem faced by students.
+- The problem can be validated through interviews in Lab 03.
+- The project is feasible to prototype using HTML, CSS, and JavaScript.
+- The team has the skills and resources required to complete it within the semester.
+- It received one of the highest NUF scores.
