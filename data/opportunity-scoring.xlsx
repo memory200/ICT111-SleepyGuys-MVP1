@@ -1,10 +1,10 @@
-## Step 7: NUF Scoring Matrix
+## Step 6: Map Technology Feasibility
 
-| Idea | New | Useful | Feasible | Total | Rank | Notes |
-|------|------|--------|---------|-------|------|------|
-| Lost & Found System | 3 | 5 | 5 | 13 | 1 | Very useful and easy to build |
-| School Announcement System | 3 | 5 | 5 | 13 | 2 | Helps students receive updates quickly |
-| Student Attendance System | 3 | 5 | 4 | 12 | 3 | Useful but needs data management |
-| Online Food Ordering System | 3 | 4 | 4 | 11 | 4 | Convenient but requires order processing |
-| Campus Navigation App | 4 | 4 | 3 | 11 | 5 | Helpful for new students but map integration is needed |
-| Library Book Search System | 2 | 4 | 4 | 10 | 6 | Useful but similar systems already exist |
+| Idea | Prototype Type | Tools Needed | Data Needed | Difficulty | Feasible This Semester? |
+|------|---------------|-------------|------------|------------|-------------------------|
+| Lost & Found System | Simple Web App | HTML, CSS, JavaScript | Item name, description, location found | Low | Yes |
+| Online Food Ordering System | Simple Web App | HTML, CSS, JavaScript | Menu items, prices, orders | Medium | Yes |
+| Student Attendance System | Dashboard | HTML, CSS, JavaScript, Google Sheets | Student names, attendance records | Medium | Yes |
+| School Announcement System | Simple Web App | HTML, CSS, JavaScript | Announcement title, content, date | Low | Yes |
+| Campus Navigation App | Interactive Prototype | Figma, Google Maps | Building names, campus map | Medium | Yes |
+| Library Book Search System | Simple Web App | HTML, CSS, JavaScript, Airtable | Book titles, authors, availability | Medium | Yes |
