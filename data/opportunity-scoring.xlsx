@@ -1,10 +1,1 @@
-## Step 6: Map Technology Feasibility
 
-| Idea | Prototype Type | Tools Needed | Data Needed | Difficulty | Feasible This Semester? |
-|------|---------------|-------------|------------|------------|-------------------------|
-| Lost & Found System | Simple Web App | HTML, CSS, JavaScript | Item name, description, location found | Low | Yes |
-| Online Food Ordering System | Simple Web App | HTML, CSS, JavaScript | Menu items, prices, orders | Medium | Yes |
-| Student Attendance System | Dashboard | HTML, CSS, JavaScript, Google Sheets | Student names, attendance records | Medium | Yes |
-| School Announcement System | Simple Web App | HTML, CSS, JavaScript | Announcement title, content, date | Low | Yes |
-| Campus Navigation App | Interactive Prototype | Figma, Google Maps | Building names, campus map | Medium | Yes |
-| Library Book Search System | Simple Web App | HTML, CSS, JavaScript, Airtable | Book titles, authors, availability | Medium | Yes |
