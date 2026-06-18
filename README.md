@@ -4,7 +4,7 @@
 
 Course Code: ICT111
 Course Name: Introduction to Information Technology
-Instructor: Dr. Herison Surbakti
+Instructor: Dr. Herison Surbakti 
 
 ## Team Name
 
