@@ -19,3 +19,4 @@ The system will allow users to report lost and found items through a website. Us
 ## MVP Type
 
 Simple Web Application using HTML, CSS, and JavaScript.
+ 
