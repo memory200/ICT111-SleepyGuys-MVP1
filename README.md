@@ -17,18 +17,22 @@ SleepyGuys
 | Htun Naung Oo | Product Lead |
 | Aung Khant Zayar Oo | Technical Lead |
 | Min Khant Maung Maung | UX/UI Lead + Documentation Lead |
+| Aung Htet Thu | Presentation and Problem Solve |
 
 ## Initial Problem Area
 
-Students and users often face difficulties managing information efficiently.
+Students frequently lose personal belongings on campus and have difficulty recovering them.
 
 ## Target Users
 
-University students and general users.
+- University Students
+- University Staff
 
-## Initial IT Venture Direction
+## Selected IT Venture Direction
 
-Develop a simple web-based system to solve real-world problems.
+Lost & Found System
+
+A web-based platform that allows users to report lost items, search for found items, and contact item owners.
 
 ## Repository Structure
 
@@ -42,8 +46,11 @@ Develop a simple web-based system to solve real-world problems.
 
 ## Current Status
 
-Lab 1 repository setup completed successfully.
+Lab 02 Completed
 
-## Next Step
+- Opportunity scanning completed
+- NUF scoring completed
+- Selected project opportunity finalized
+- Preparing customer discovery interviews for Lab 03
 
-Evaluate project ideas and select one for development.
+
