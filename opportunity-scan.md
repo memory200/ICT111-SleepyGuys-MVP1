@@ -28,3 +28,14 @@
 | Difficulty finding classrooms | New students | Ask others | Campus Navigation App | Google Maps API |
 | Event information not reaching students | Students | Social media posts | Event Management System | Website |
 | Library book search takes time | Students | Search manually | Library Search System | MySQL, PHP |
+
+## Step 6: Map Technology Feasibility
+
+| Idea | Prototype Type | Tools Needed | Data Needed | Difficulty | Feasible This Semester? |
+|------|---------------|-------------|------------|------------|-------------------------|
+| Lost & Found System | Simple Web App | HTML, CSS, JavaScript | Item name, description, location found | Low | Yes |
+| DJ Booking Website | Landing Page | Figma, HTML, CSS | DJ profiles, contact details, event information | Low | Yes |
+| Student Attendance System | Dashboard | HTML, CSS, JavaScript, Google Sheets | Student names, attendance records | Medium | Yes |
+| Event Management Platform | Simple Web App | Figma, HTML, CSS, JavaScript | Event details, venue, dates | Medium | Yes |
+| Campus Navigation App | Interactive Prototype | Figma, Google Maps | Building names, campus map | Medium | Yes |
+| Library Book Search System | Simple Web App | HTML, CSS, JavaScript, Airtable | Book titles, authors, availability | Medium | Yes |
