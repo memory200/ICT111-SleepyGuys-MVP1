@@ -56,28 +56,30 @@ Lab 02 Completed
 ## README Update Template after Lab 03
 
 
-##Customer Problem Discovery Summary
+## Customer Problem Discovery Summary
 
--In Lab 03, our team interviewed university students and staff to validate our selected problem. We wanted to find out if losing personal belongings on campus is a common and important issue.
+In Lab 03, our team interviewed university students and staff to validate our selected problem. We wanted to find out if losing personal belongings on campus is a common and important issue.
 
-##Target Respondents
--University Students
--University Staff
+## Target Respondents
 
-##Main Evidence Found
+* University Students
+* University Staff
+
+## Main Evidence Found
 
 Common issues mentioned by respondents:
 
--Students often lose items such as ID cards, wallets, chargers, and water bottles.
--There is no central place to report or search for lost items.
--People usually use social media or ask friends for help.
--Finding lost items can take a long time and is often unsuccessful.
+* Students often lose items such as ID cards, wallets, chargers, and water bottles.
+* There is no central place to report or search for lost items.
+* People usually use social media or ask friends for help.
+* Finding lost items can take a long time and is often unsuccessful.
 
-##Updated Problem Statement
+## Updated Problem Statement
 
--University students and staff need an easier way to report and find lost belongings because current methods are scattered and inefficient.
+University students and staff need an easier way to report and find lost belongings because current methods are scattered and inefficient.
 
-##Decision for Next Step
+## Decision for Next Step
+
 The team decided to continue with the Lost & Found System project because the interviews confirmed that the problem is real and affects many campus users.
 
 Next, we will develop and test a web-based platform for reporting and finding lost items.
