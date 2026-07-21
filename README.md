@@ -1,4 +1,4 @@
-##Team Name##SleepyGuys
+**Team Name**SleepyGuys
 
 | Student ID | Name | Role | Responsibility |
 |---|---|---|---|
@@ -37,3 +37,34 @@ A centralized **Smart Campus Lost-and-Found Web Platform** where students can qu
 - **`screenshots/`**: Visual evidence of prototype, UI, and project progress.
 - **`pitch/`**: Pitch deck presentation slides and demo video materials.
 
+### 🔹 Lab 02: Opportunity Scanning & NUF Framework Evaluation
+* **Opportunity Scanning:** Expanded brainstorming to 6 distinct IT solution ideas spanning academic, campus, and business utility.
+* **Constraint Check:** Filtered ideas to ensure zero reliance on IoT hardware or complex cybersecurity infrastructure, focusing strictly on web/dashboard solutions.
+* **NUF Evaluation:** Evaluated all 6 ideas using the **NUF (New, Useful, Feasible)** framework in `data/opportunity-scoring.csv`.
+* **Selection Decision:** **Campus Lost-and-Found System** scored the highest ($13/15$) as the most impactful and feasible MVP to build within the course timeframe.
+* **Documentation Completed:**
+  * `docs/opportunity-scan.md`: Full scanning table, current alternatives, and technology feasibility mapping.
+  * `docs/selected-opportunity.md`: Detailed selection narrative, problem statement, current alternatives, and validation plan.
+  * `docs/weekly-logbook.md`: Lab 02 reflection log and team contributions.
+
+---
+
+## Selected IT Venture Direction
+
+### Problem Statement
+Students and staff frequently lose personal items (ID cards, keys, water bottles, electronics) across campus. Currently, they lack a centralized platform to report or search for items, relying on cluttered messaging groups (Telegram, Viber) or physical security desks.
+
+### Proposed Solution
+A centralized, web-based Lost-and-Found portal where users can:
+1. Submit reports for found items with images, descriptions, and recovery locations.
+2. Search and filter lost items easily by category and campus area.
+3. Securely contact finders or campus security to claim belongings.
+
+---
+
+## Current Status
+* [x] Team workspace and repository structure created.
+* [x] Opportunity scan table populated with 6 ideas.
+* [x] NUF scoring completed in `data/opportunity-scoring.csv`.
+* [x] Core venture documentation finalized in `docs/`.
+* [x] GitHub Issues created to track task management.
