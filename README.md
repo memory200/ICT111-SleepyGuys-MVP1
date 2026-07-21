@@ -1,4 +1,4 @@
-**Repository Name:** `ICT111-SleepyGuys-MVP1`  
+ 
 **Team Name:** Sleepy Guys  
 
 ---
@@ -54,20 +54,4 @@ A centralized **Smart Campus Lost-and-Found Web Platform** where students can qu
 * **Findings Synthesis:** Summarized validated problem signals and next steps in `docs/customer-discovery-summary.md`.
 
 ---
-
-## Key Discovery Findings (Lab 03 Highlights)
-* **Chat Group Overload:** 80% of interviewed students confirmed that lost item posts in large chat groups get buried within hours.
-* **Physical Search Friction:** Students waste substantial time walking between multiple security desks scattered across campus.
-* **Paper Log Limitations:** Security staff struggle to quickly match lost reports with collected items using manual paper logbooks.
-
----
-
-## Repository Structure Overview
-```text
-├── docs/                # Documentation, questions, problem notes, logbooks
-├── prototype/           # Interactive wireframes and source code
-├── data/                # Survey data, raw responses, scoring matrices
-├── finance/             # Cost structure and financial assumptions
-├── diagrams/            # User flows and system architecture diagrams
-├── screenshots/         # UI previews and progress captures
-└── pitch/               # Presentation slides and video materials
+s
