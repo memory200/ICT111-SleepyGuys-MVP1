@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Campus Lost & Found - Sleepy Guys</title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .badge { padding: 4px 8px; border-radius: 4px; font-weight: bold; font-size: 12px; }
+        .Pending { background-color: #f39c12; color: white; }
+        .Available { background-color: #2ecc71; color: white; }
+        .Claimed { background-color: #3498db; color: white; }
+        .alert { padding: 10px; margin-bottom: 15px; border-radius: 4px; background-color: #d4edda; color: #155724; }
+    </style>
+</head>
+<body>
+    <header style="background: #2c3e50; color: white; padding: 15px; display: flex; justify-content: space-between; align-items: center;">
+        <h2>Smart Campus Lost & Found</h2>
+        <nav>
+            <a href="/" style="color: white; margin-left: 15px; text-decoration: none;">Home</a>
+            <a href="#report-section" style="color: white; margin-left: 15px; text-decoration: none;">Report Item</a>
+            <a href="#list-section" style="color: white; margin-left: 15px; text-decoration: none;">View Records</a>
+        </nav>
+    </header>
+
+    <main style="max-width: 1000px; margin: 30px auto; padding: 0 20px;">
+        <% if (msg) { %>
+            <div class="alert"><%= msg %></div>
+        <% } %>
+
+        <section style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 15px; margin-bottom: 40px;">
+            <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 5px solid #7f8c8d; text-align: center;">
+                <h3>Total Reports</h3>
+                <p style="font-size: 24px; font-weight: bold;"><%= items.length %></p>
+            </div>
+            <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 5px solid #f39c12; text-align: center;">
+                <h3>Pending</h3>
+                <p style="font-size: 24px; font-weight: bold;"><%= items.filter(i => i.status === 'Pending').length %></p>
+            </div>
+            <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 5px solid #2ecc71; text-align: center;">
+                <h3>Available</h3>
+                <p style="font-size: 24px; font-weight: bold;"><%= items.filter(i => i.status === 'Available').length %></p>
+            </div>
+            <div style="background: #f8f9fa; padding: 20px; border-radius: 8px; border-left: 5px solid #3498db; text-align: center;">
+                <h3>Claimed</h3>
+                <p style="font-size: 24px; font-weight: bold;"><%= items.filter(i => i.status === 'Claimed').length %></p>
+            </div>
+        </section>
+
+        <section id="report-section" style="background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1); margin-bottom: 40px;">
+            <h3>Report Lost / Found Item</h3>
+            <form action="/report" method="POST" id="reportForm" style="display: flex; flex-direction: column; gap: 15px; margin-top: 15px;">
+                <div>
+                    <label>Report Type: </label>
+                    <select name="reportType" style="padding: 8px; width: 100%;">
+                        <option value="Lost">Lost</option>
+                        <option value="Found">Found</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Item Name *</label>
+                    <input type="text" name="itemName" id="itemName" style="padding: 8px; width: 100%;" placeholder="e.g. Student ID Card">
+                    <span id="nameError" style="color: red; font-size: 12px; display: none;">Item name is required!</span>
+                </div>
+                <div>
+                    <label>Location *</label>
+                    <input type="text" name="location" id="location" style="padding: 8px; width: 100%;" placeholder="e.g. Main Library">
+                    <span id="locError" style="color: red; font-size: 12px; display: none;">Location is required!</span>
+                </div>
+                <div>
+                    <label>Description</label>
+                    <textarea name="description" style="padding: 8px; width: 100%; height: 80px;" placeholder="Provide details (color, brand, etc.)"></textarea>
+                </div>
+                <button type="submit" style="background: #2c3e50; color: white; padding: 10px; border: none; border-radius: 4px; cursor: pointer;">Submit Report</button>
+            </form>
+        </section>
+
+        <section id="list-section" style="background: #fff; padding: 25px; border-radius: 8px; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1);">
+            <h3>Active Campus Records</h3>
+            
+            <input type="text" id="searchInput" onkeyup="filterTable()" placeholder="Search items or locations..." style="padding: 8px; width: 100%; margin: 15px 0; border: 1px solid #ddd; border-radius: 4px;">
+            
+            <table id="recordsTable" style="width: 100%; border-collapse: collapse;">
+                <thead>
+                    <tr style="background: #f2f2f2; text-align: left;">
+                        <th style="padding: 12px; border: 1px solid #ddd;">ID</th>
+                        <th style="padding: 12px; border: 1px solid #ddd;">Item Name</th>
+                        <th style="padding: 12px; border: 1px solid #ddd;">Location</th>
+                        <th style="padding: 12px; border: 1px solid #ddd;">Status</th>
+                        <th style="padding: 12px; border: 1px solid #ddd;">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <% items.forEach(item => { %>
+                        <tr>
+                            <td style="padding: 12px; border: 1px solid #ddd;"><%= item.id %></td>
+                            <td style="padding: 12px; border: 1px solid #ddd;"><%= item.itemName %></td>
+                            <td style="padding: 12px; border: 1px solid #ddd;"><%= item.location %></td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">
+                                <span class="badge <%= item.status %>"><%= item.status %></span>
+                            </td>
+                            <td style="padding: 12px; border: 1px solid #ddd;">
+                                <a href="/item/<%= item.id %>"><button style="padding: 5px 10px; background: #34495e; color: white; border: none; border-radius: 4px; cursor: pointer;">View Detail</button></a>
+                            </td>
+                        </tr>
+                    <% }) %>
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script>
+        // 1. Client-side Form Validation Check
+        document.getElementById('reportForm').addEventListener('submit', function(e) {
+            let isValid = true;
+            const itemName = document.getElementById('itemName').value.trim();
+            const location = document.getElementById('location').value.trim();
+
+            if (!itemName) {
+                document.getElementById('nameError').style.display = 'block';
+                isValid = false;
+            } else {
+                document.getElementById('nameError').style.display = 'none';
+            }
+
+            if (!location) {
+                document.getElementById('locError').style.display = 'block';
+                isValid = false;
+            } else {
+                document.getElementById('locError').style.display = 'none';
+            }
+
+            if (!isValid) e.preventDefault(); // Stop submission if invalid
+        });
+
+        // 2. Real-time Table Search/Filter Interaction
+        function filterTable() {
+            const input = document.getElementById('searchInput').value.toUpperCase();
+            const table = document.getElementById('recordsTable');
+            const tr = table.getElementsByTagName('tr');
+
+            for (let i = 1; i < tr.length; i++) {
+                let match = false;
+                const tdName = tr[i].getElementsByTagName('td')[1];
+                const tdLoc = tr[i].getElementsByTagName('td')[2];
+                
+                if (tdName || tdLoc) {
+                    const textName = tdName.textContent || tdName.innerText;
+                    const textLoc = tdLoc.textContent || tdLoc.innerText;
+                    if (textName.toUpperCase().indexOf(input) > -1 || textLoc.toUpperCase().indexOf(input) > -1) {
+                        match = true;
+                    }
+                }
+                tr[i].style.display = match ? "" : "none";
+            }
+        }
+    </script>
+</body>
+</html>

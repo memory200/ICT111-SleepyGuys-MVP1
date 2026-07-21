@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Detail - <%= item.id %></title>
+    <link rel="stylesheet" href="/style.css">
+    <style>
+        .badge { padding: 6px 12px; border-radius: 4px; font-weight: bold; }
+        .Pending { background-color: #f39c12; color: white; }
+        .Available { background-color: #2ecc71; color: white; }
+        .Claimed { background-color: #3498db; color: white; }
+    </style>
+</head>
+<body style="background: #f4f6f9; font-family: sans-serif; padding: 40px 20px;">
+    <div style="max-width: 600px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+        <a href="/" style="text-decoration: none; color: #34495e; font-weight: bold;">&larr; Back to Dashboard</a>
+        
+        <h2 style="margin-top: 20px; color: #2c3e50;">Record Specification: <%= item.id %></h2>
+        <hr style="border: 0; border-top: 1px solid #eee; margin: 20px 0;">
+
+        <div style="display: flex; flex-direction: column; gap: 15px; font-size: 16px;">
+            <p><strong>Item Name:</strong> <%= item.itemName %></p>
+            <p><strong>Discovered Location:</strong> <%= item.location %></p>
+            <p><strong>Description:</strong> <%= item.desc || 'No descriptions provided.' %></p>
+            <p><strong>Current Status:</strong> 
+                <span class="badge <%= item.status %>"><%= item.status %></span>
+            </p>
+        </div>
+
+        <div style="margin-top: 40px; background: #f8f9fa; padding: 20px; border-radius: 6px; border: 1px solid #e2e8f0;">
+            <h4 style="margin-top: 0; color: #e74c3c;">Administrative Control Panel</h4>
+            <p style="font-size: 13px; color: #7f8c8d; margin-bottom: 15px;">Simulate authorized campus status updates below:</p>
+            
+            <form action="/report" method="POST" style="display: flex; gap: 10px;">
+                <input type="hidden" name="itemName" value="<%= item.itemName %>">
+                <input type="hidden" name="location" value="<%= item.location %>">
+                <input type="hidden" name="description" value="<%= item.desc %>">
+                
+                <select name="reportType" style="padding: 8px; flex-grow: 1;">
+                    <option value="Lost" <%= item.status === 'Pending' ? 'selected' : '' %>>Set to Pending (Lost)</option>
+                    <option value="Found" <%= item.status === 'Available' ? 'selected' : '' %>>Set to Available (Found)</option>
+                </select>
+                <button type="submit" style="background: #e74c3c; color: white; border: none; padding: 8px 15px; border-radius: 4px; cursor: pointer; font-weight: bold;">Update State</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

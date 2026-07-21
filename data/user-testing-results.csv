@@ -1,0 +1,7 @@
+Tester_ID,Role,Task_ID,Task_Name,Status,Completion_Time_Sec,Usability_Notes
+U01,Student,T1,Search Item,Success,18,Easy to find
+U02,Student,T1,Search Item,Success,22,Intuitive search bar
+U03,Student,T2,Submit Report,Success,45,Form fields clear
+U04,Student,T2,Submit Report,Success,52,No issues
+U05,Staff,T3,Filter Category,Success,12,Filtering works fast
+U06,Student,T3,Filter Category,Failed,35,Dropdown small on mobile screen
