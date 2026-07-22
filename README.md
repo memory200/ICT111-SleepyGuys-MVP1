@@ -85,3 +85,62 @@ A centralized **Smart Campus Lost-and-Found Web System** allowing users to searc
 ### Diagrams
 ![User Flow Diagram](diagram/flowchart.png)
 ![Use Case Diagram](diagram/usecasediagram.png)
+
+# Smart Campus Lost-and-Found System
+
+**Repository Name:** `ICT111-SleepyGuys-MVP1`
+
+---
+
+##  Venture Overview
+
+### Problem Statement
+Campus students and staff frequently lose belongings but face difficulties locating them due to scattered, unorganized informal chat groups that suffer from message overload.
+
+### Solution Direction
+A centralized **Smart Campus Lost-and-Found Web System** allowing users to search categorized listings, upload found item reports, and view clear physical collection points at campus security desks.
+
+---
+
+##  Lab 05 Artifacts Baseline (Product Concept & UI/UX Wireframes)
+
+* **Product Concept:** Defined target user, problem, value proposition, and MVP scope boundary (`docs/product-concept.md`).
+* **Traceability Matrix:** Mapped all wireframe screens directly to functional system requirements (`docs/feature-requirement-mapping.md`).
+* **UI/UX Wireframes:** Designed and exported 6 core system screens with realistic campus data (`wireframes/` directory):
+  * `homepage.png` - Portal landing and recent listings preview.
+  * `input-form.png` - Found item submission with photo upload.
+  * `record-list.png` - Keyword search and multi-category filtering.
+  * `detail-view.png` - Detailed item info with security desk claim guidance.
+  * `dashboard.png` - Security analytics and metrics summary.
+  * `admin-view.png` - Staff management console for updating item statuses.
+* **Usability Checklist:** Verified interface consistency and requirement coverage (`docs/wireframe-usability-checklist.md`).
+
+---
+
+##  Repository Structure
+
+```text
+ICT111-SleepyGuys-MVP1/
+├── docs/                             # Core documentation & requirements
+│   ├── product-concept.md            # Target user, value prop, MVP boundary
+│   ├── feature-requirement-mapping.md# Requirements-to-screen traceability
+│   ├── wireframe-specification.md    # Screen UI/UX specifications
+│   ├── wireframe-usability-checklist.md # Interface usability verification
+│   ├── user-personal.md              # Target user persona
+│   ├── system-requirements.md        # System functional/non-functional specs
+│   ├── user-stories.md               # User stories & acceptance criteria
+│   ├── mvp-feature-list.md           # MoSCoW feature prioritization
+│   └── weekly-logbook.md             # Progress logs & decisions
+├── wireframes/                       # Lab 05 UI/UX Wireframe Screenshots
+│   ├── homepage.png
+│   ├── input-form.png
+│   ├── record-list.png
+│   ├── detail-view.png
+│   ├── dashboard.png
+│   └── admin-view.png
+├── diagram/                          # System diagrams
+│   ├── user-flow.png                 # User interaction flow
+│   └── use-case-diagram.png          # Use case diagram
+├── data/                             # Research data & discovery logs
+├── prototype/                        # Web application source files
+└── README.md                         # Project landing page & progress tracker
