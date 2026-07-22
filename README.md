@@ -73,5 +73,5 @@ A centralized **Smart Campus Lost-and-Found Web Platform** where students can qu
 * ** [Weekly Logbook](docs/weekly-logbook.md)
 
 ### Diagrams
-* ** ![User Flow Diagram](diagrams/user-flow.png)
--* **![Use Case Diagram](diagrams/use-case-diagram.png)
+* ** ![User Flow Diagram](diagram/flowchart.png)
+-* **![Use Case Diagram](diagram/usecasediagram.png)
