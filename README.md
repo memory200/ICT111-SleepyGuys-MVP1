@@ -114,10 +114,19 @@ A centralized **Smart Campus Lost-and-Found Web System** allowing users to searc
 -  [Sample Records Dataset](data/sample-records.csv)
 -  [Weekly Logbook](docs/weekly-logbook.md)
 
-##  Lab 06 Artifacts Baseline (Business Model & Technical Architecture)
+## Artifacts Baseline (Business Model & Technical Architecture)
 
 * **Business Model Canvas:** Defined all 9 BMC blocks specific to campus lost & found operations (`docs/business-model-canvas.md`).
 * **Feature-Value Mapping:** Mapped system features directly to user/business value and requirements (`docs/feature-value-mapping.md`).
 * **Technical Architecture:** Selected database-backed web application architecture using Node.js & Express (`docs/technical-architecture.md`).
 * **Data Structure:** Specified logical entities (`ItemRecord`, `SecurityDeskOffice`) and field validations (`docs/data-structure.md`).
 * **Sample Dataset:** Created baseline CSV dataset for testing (`data/sample-records.csv`).
+##  Lab 07 Artifacts Baseline (MVP Experiment Design)
+
+* **Critical Assumptions:** Identified and ranked top risky assumptions using a Risk Matrix (`docs/critical-assumptions.md`).
+* **MVP Experiment Plan:** Outlined prototype testing scope and mapped screens to requirement IDs (`docs/mvp-experiment-plan.md`).
+* **Tester Script:** Prepared standardized task flows for student and security staff persona testing (`docs/demo-script.md`).
+* **Success Metrics:** Defined measurable thresholds for task completion rate and duration (`docs/acquisition-metrics.md`).
+* **Feedback Questionnaire:** Created neutral post-experiment feedback questions (`docs/feedback-form.md`).
+
+---
