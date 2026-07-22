@@ -76,3 +76,22 @@ Conduct opportunity scanning in Lab 2 to select and validate the primary venture
 ### Plan for Next Week
 - Begin prototype design and UI wireframing based on MVP feature scope
 - Review and refine system traceability before upcoming deliverables
+
+## Lab 05 Weekly Logbook: UI/UX Wireframing & Product Concept
+
+### Key Decisions & Progress
+- **Product Scope & Vision Finalized:** Defined the core product concept, in-scope MVP baseline features, and future out-of-scope capabilities (`/docs/product-concept.md`).
+- **Feature-Requirement Mapping:** Mapped all planned UI screens directly to Lab 04 Functional Requirements (FR) and User Story IDs to guarantee 100% requirement coverage (`/docs/feature-requirement-mapping.md`).
+- **Core Wireframe Designs:** Designed and exported 6 mandatory UI screens with realistic sample content into the `/wireframes/` directory.
+- **User Flow & Interaction Pathway:** Mapped the complete user navigation journey across all wireframe screens (`/diagrams/user-flow.png`).
+- **Specification & Usability Audit:** Documented screen elements, interaction logic (`/docs/wireframe-specification.md`), and performed a usability checklist audit (`/docs/wireframe-usability-checklist.md`).
+
+### Member Contributions
+- **HTUN NAUNG OO:** Authored the product concept document (`/docs/product-concept.md`) and created the feature-to-requirement mapping matrix (`/docs/feature-requirement-mapping.md`).
+- **MIN KHANT MAUNG MAUNG:** Designed core wireframe screens including Homepage/Landing, Input Form, and Record List (`/wireframes/`).
+- **AUNG KHANT ZAYAR OO:** Designed wireframe screens including Detail View, Dashboard, and Admin View (`/wireframes/`).
+- **AUNG HTET THU:** Created the user flow diagram (`/diagrams/user-flow.png`), conducted the usability checklist audit (`/docs/wireframe-usability-checklist.md`), updated `README.md`, and compiled the weekly logbook (`/docs/weekly-logbook.md`).
+
+### Team Reflection
+- **Baseline Alignment:** All wireframe screens directly correspond to our Lab 04 system requirements and user stories, providing a visual baseline for the upcoming prototype implementation.
+- **Next Steps:** Begin front-end prototype development using HTML/CSS/JS or Figma interactive components based on the approved wireframes and usability guidelines.
