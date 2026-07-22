@@ -1,0 +1,9 @@
+Test_User_ID,User_Role,Prototype_Version,Main_Task,Task_Completed,Time_Seconds,Confusion_Point,Feature_Most_Useful,Feedback_Score_1_5,Interest_Level_1_5,Comment,Requirement_Affected
+U01,Student,v1.0-EJS,Submit Found Item Report,Yes,75,None,Image Upload,5,5,Very smooth flow for uploading item.,FR-1.1
+U02,Student,v1.0-EJS,Search Lost Headphones,Yes,45,Category Filter Dropdown,Keyword Search Bar,4,5,Filter dropdown was a bit hard to see.,FR-2.2
+U03,Student,v1.0-EJS,Find Security Desk Location,Yes,30,None,Pickup Location Info,5,4,Clear office hours info.,FR-3.1
+U04,Security Staff,v1.0-EJS,Update Status to Claimed,Yes,60,Status Update Button Label,Admin Table,4,4,Button should be highlighted more.,FR-3.2
+U05,Student,v1.0-EJS,Submit Found Item Report,No,120,Required Location Field,Form Validation,2,3,Could not find exact location tag.,FR-1.2
+U06,Student,v1.0-EJS,Search Lost Headphones,Yes,50,None,Category Filter,4,5,Search was quick.,FR-2.2
+U07,Student,v1.0-EJS,Submit Found Item Report,Yes,85,Photo Attachment Size,Image Preview,4,4,Worked well overall.,FR-1.1
+U08,Security Staff,v1.0-EJS,Update Status to Claimed,Yes,40,None,Quick Action Console,5,5,Easy to manage items.,FR-3.2
