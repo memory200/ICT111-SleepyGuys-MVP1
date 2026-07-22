@@ -42,6 +42,24 @@ Conduct opportunity scanning in Lab 2 to select and validate the primary venture
 - **Checkpoint Alignment:** Our team successfully evaluated the selected opportunity to ensure it is real, useful, and feasible to prototype using standard IT technologies (without IoT devices or complex cybersecurity dependencies).
 - **Next Steps:** Prepare interview/survey evidence and customer research for Lab 03 to validate our assumptions.
 
+## Lab 03 Weekly Logbook: Customer Problem Discovery
+
+### Key Decisions & Progress
+- **Target Respondents Defined:** Identified and defined the specific target users to interview/survey based on our selected IT opportunity from Lab 02[cite: 2].
+- **Non-Leading Discovery Questions:** Prepared non-leading interview and survey questions focused on user behaviors, pain points, workarounds, and consequences rather than pitching our app idea[cite: 2].
+- **Assumption vs. Evidence Analysis:** Evaluated team assumptions against raw collected user data to separate initial team opinions from validated user evidence[cite: 2].
+- **Problem Discovery Summary:** Consolidated user responses to identify repeated pain points and current alternatives, establishing solid evidence for our project baseline before designing MVP features[cite: 1, 2].
+
+### Member Contributions
+- **HTUN NAUNG OO:** Led the target respondent definition and prepared the non-leading discovery questions (`/docs/customer-questions.md`)[cite: 2].
+- **MIN KHANT MAUNG MAUNG:** Conducted evidence collection, managed raw response data (`/data/raw-responses.xlsx`), and compiled problem notes (`/docs/problem-notes.md`)[cite: 2].
+- **AUNG KHANT ZAYAR OO:** Analyzed collected data to build the assumption-evidence table (`/docs/assumption-evidence-table.md`) and wrote the problem findings summary (`/docs/customer-discovery-summary.md`)[cite: 2].
+- **AUNG HTET THU:** Managed GitHub documentation, created/updated GitHub issues for customer discovery, updated `README.md`, and compiled the weekly logbook (`/docs/weekly-logbook.md`)[cite: 2].
+
+### Team Reflection
+- **Checkpoint Alignment:** We verified that our selected problem is grounded in actual user evidence rather than just team opinion[cite: 2]. We identified repeated workarounds and pain points that validate the need for an IT solution[cite: 2].
+- **Next Steps:** Use the customer evidence gathered in Lab 03 as the baseline to define the user persona, system requirements, user stories, and MVP feature list for Lab 04[cite: 1, 2].
+
 ## Lab 04 Weekly Logbook
 
 ### Key Decisions
