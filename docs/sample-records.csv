@@ -1,0 +1,4 @@
+item_id,title,category,type,location,date_reported,status,contact_email
+ITEM-2026-001,Blue Hydro Flask,Personal Items,Found,Library Floor 2,2026-07-20,Verified,student1@campus.edu
+ITEM-2026-002,Dell Laptop Charger,Electronics,Lost,Canteen Area,2026-07-21,Pending,student2@campus.edu
+ITEM-2026-003,Student ID Card,Cards,Found,Building A Room 302,2026-07-22,Returned,admin@campus.edu
