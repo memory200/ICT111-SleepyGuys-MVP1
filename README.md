@@ -64,4 +64,14 @@ A centralized **Smart Campus Lost-and-Found Web Platform** where students can qu
 * **Findings Synthesis:** Summarized validated problem signals and next steps in `docs/customer-discovery-summary.md`.
 
 ---
-s
+
+## Lab 04 Documentation
+* ** [User Personal](docs/user-personal.md)
+* ** [System Requirements](docs/system-requirements.md)
+* ** [User Stories & Acceptance Criteria](docs/user-stories.md)
+* ** [MVP Feature List](docs/mvp-feature-list.md)
+* ** [Weekly Logbook](docs/weekly-logbook.md)
+
+### Diagrams
+* ** ![User Flow Diagram](diagrams/user-flow.png)
+-* **![Use Case Diagram](diagrams/use-case-diagram.png)
