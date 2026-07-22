@@ -86,6 +86,7 @@ A centralized **Smart Campus Lost-and-Found Web System** allowing users to searc
 ![User Flow Diagram](diagram/flowchart.png)
 ![Use Case Diagram](diagram/usecasediagram.png)
 
+---
 
 ##  Lab 05 Artifacts Baseline (Product Concept & UI/UX Wireframes)
 
@@ -101,3 +102,15 @@ A centralized **Smart Campus Lost-and-Found Web System** allowing users to searc
 * **Usability Checklist:** Verified interface consistency and requirement coverage (`docs/wireframe-usability-checklist.md`).
 
 ---
+
+
+##  Lab 06: Business Model & Technical Architecture
+
+###  Documentation Links
+-  [Business Model Canvas](docs/business-model-canvas.md)
+-  [Feature-Value Mapping Matrix](docs/feature-value-mapping.md)
+-  [Technical Architecture & Stack Selection](docs/technical-architecture.md)
+-  [Data Structure & Entity Specification](docs/data-structure.md)
+-  [Sample Records Dataset](data/sample-records.csv)
+-  [Weekly Logbook](docs/weekly-logbook.md)
+
