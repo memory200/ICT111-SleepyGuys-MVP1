@@ -1,9 +1,17 @@
  
-**Team Name:** Sleepy Guys  
+# ICT111-SleepyGuys-MVP1
 
----
+## Course Information
 
-## Team Members & Roles
+Course Code: ICT111
+Course Name: Introduction to Information Technology
+Instructor: Dr. Herison Surbakti 
+
+## Team Name
+
+SleepyGuys
+
+## Team Members and Roles
 
 | Student ID | Name | Role | Responsibility |
 |---|---|---|---|
@@ -16,13 +24,15 @@
 
 ## Venture Overview
 
-### Primary Problem Area
-Students and staff often lose personal belongings (IDs, laptops, keys, wallets) on campus but face difficulties reporting or locating missing items due to decentralized and informal communication channels.
+## Initial Problem Area
 
-### Target Users
-* University Students
-* Campus Security & Administrative Personnel
-* Lecturers & Campus Visitors
+Students frequently lose personal belongings on campus and have difficulty recovering them.
+
+## Target Users
+
+- University Students
+- University Staff
+
 
 ### Proposed IT Venture Direction
 A centralized **Smart Campus Lost-and-Found Web Platform** where students can quickly report found items, search missing belongings with filtering tools, and securely verify/contact campus staff to claim lost property.
