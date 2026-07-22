@@ -95,3 +95,25 @@ Conduct opportunity scanning in Lab 2 to select and validate the primary venture
 ### Team Reflection
 - **Baseline Alignment:** All wireframe screens directly correspond to our Lab 04 system requirements and user stories, providing a visual baseline for the upcoming prototype implementation.
 - **Next Steps:** Begin front-end prototype development using HTML/CSS/JS or Figma interactive components based on the approved wireframes and usability guidelines.
+
+## Lab 06 Weekly Logbook: Business Model & Technical Architecture
+
+### Repository Link
+- https://github.com/memory200/ICT111-SleepyGuys-MVP1
+
+### Key Decisions & Progress
+- **Business Model Finalized:** Completed all 9 BMC building blocks customized to our group case (`/docs/business-model-canvas.md`).
+- **Feature-Value Mapping:** Linked all MVP features to requirement IDs, user value, business value, and prototype screens (`/docs/feature-value-mapping.md`).
+- **Architecture Stack Selection:** Selected and justified our spreadsheet-backed / database-backed prototype stack (`/docs/technical-architecture.md`).
+- **Data Model & Schema:** Defined data entities, fields, validation rules (`/docs/data-structure.md`), and generated sample CSV records (`/data/sample-records.csv`).
+- **Diagram Design:** Created and exported System Architecture and Data-Flow diagrams (`/diagrams/`).
+
+### Member Contributions
+- **HTUN NAUNG OO:** Authored the Business Model Canvas (`/docs/business-model-canvas.md`) and Feature-Value Mapping matrix (`/docs/feature-value-mapping.md`).
+- **MIN KHANT MAUNG MAUNG:** Authored the Technical Architecture selection (`/docs/technical-architecture.md`), Data Structure specification (`/docs/data-structure.md`), and sample CSV dataset (`/data/sample-records.csv`).
+- **AUNG KHANT ZAYAR OO:** Designed the System Architecture diagram (`/diagrams/system-architecture.png`) and Data-Flow diagram (`/diagrams/data-flow.png`).
+- **AUNG HTET THU:** Managed GitHub Issues, updated `README.md` with Lab 06 links and embedded diagrams, and compiled the weekly logbook (`/docs/weekly-logbook.md`).
+
+### Team Reflection
+- **Bridge to Implementation:** Lab 06 successfully bridged our product concept into a concrete, executable technical architecture baseline for prototype building.
+- **Next Steps:** Begin implementation of the frontend interface and integrate storage API for data collection and search querying.
