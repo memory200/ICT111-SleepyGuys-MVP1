@@ -130,3 +130,9 @@ A centralized **Smart Campus Lost-and-Found Web System** allowing users to searc
 * **Feedback Questionnaire:** Created neutral post-experiment feedback questions (`docs/feedback-form.md`).
 
 ---
+##  Lab 08 Artifacts Baseline (Customer Validation & Analytics)
+
+* **Validation Dataset:** Prepared test results CSV for 8 campus testers (`data/validation-results.csv`).
+* **Validation Summary:** Summarized customer testing methodology and outcomes (`docs/customer-validation-summary.md`).
+* **Analytics Insights:** Calculated 87.5% Task Success Rate and 4.13/5 Feedback Score (`docs/analytics-insights.md`).
+* **MVP Decision:** Formally decided to **REVISE & PROCEED** based on evidence (`docs/mvp-decision.md`).
