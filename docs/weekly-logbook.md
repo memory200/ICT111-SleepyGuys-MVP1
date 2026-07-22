@@ -23,3 +23,20 @@ Selected Smart Campus Lost-and-Found System as our primary IT venture project.
 
 ### Plan for Next Week
 Conduct opportunity scanning in Lab 2 to select and validate the primary venture problem area.
+
+## Lab 04 Weekly Logbook
+
+### Key Decisions
+- Agreed on primary persona based on Lab 03 evidence
+- Defined MVP scope using MoSCoW logic
+- Finalized system requirements and user stories for the final prototype baseline
+
+### Member Contributions
+- **HTUN NAUNG OO:** Created User Persona & System Requirements
+- **MIN KHANT MAUNG MAUNG:** Written User Stories & Acceptance Criteria
+- **AUNG KHANT ZAYAR OO:** Created User Flow & Use Case Diagrams
+- **AUNG HTET THU:** Updated README & GitHub Issue Management
+
+### Next Tasks
+- Begin prototype design and UI wireframing based on MVP feature scope
+- Review and refine system traceability before upcoming deliverables
