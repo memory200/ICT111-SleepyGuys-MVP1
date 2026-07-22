@@ -45,20 +45,20 @@ Conduct opportunity scanning in Lab 2 to select and validate the primary venture
 ## Lab 03 Weekly Logbook: Customer Problem Discovery
 
 ### Key Decisions & Progress
-- **Target Respondents Defined:** Identified and defined the specific target users to interview/survey based on our selected IT opportunity from Lab 02[cite: 2].
-- **Non-Leading Discovery Questions:** Prepared non-leading interview and survey questions focused on user behaviors, pain points, workarounds, and consequences rather than pitching our app idea[cite: 2].
-- **Assumption vs. Evidence Analysis:** Evaluated team assumptions against raw collected user data to separate initial team opinions from validated user evidence[cite: 2].
-- **Problem Discovery Summary:** Consolidated user responses to identify repeated pain points and current alternatives, establishing solid evidence for our project baseline before designing MVP features[cite: 1, 2].
+- **Target Respondents Defined:** Identified and defined the specific target users to interview/survey based on our selected IT opportunity from Lab 02.
+- **Non-Leading Discovery Questions:** Prepared non-leading interview and survey questions focused on user behaviors, pain points, workarounds, and consequences rather than pitching our app idea.
+- **Assumption vs. Evidence Analysis:** Evaluated team assumptions against raw collected user data to separate initial team opinions from validated user evidence.
+- **Problem Discovery Summary:** Consolidated user responses to identify repeated pain points and current alternatives, establishing solid evidence for our project baseline before designing MVP features.
 
 ### Member Contributions
-- **HTUN NAUNG OO:** Led the target respondent definition and prepared the non-leading discovery questions (`/docs/customer-questions.md`)[cite: 2].
-- **MIN KHANT MAUNG MAUNG:** Conducted evidence collection, managed raw response data (`/data/raw-responses.xlsx`), and compiled problem notes (`/docs/problem-notes.md`)[cite: 2].
-- **AUNG KHANT ZAYAR OO:** Analyzed collected data to build the assumption-evidence table (`/docs/assumption-evidence-table.md`) and wrote the problem findings summary (`/docs/customer-discovery-summary.md`)[cite: 2].
-- **AUNG HTET THU:** Managed GitHub documentation, created/updated GitHub issues for customer discovery, updated `README.md`, and compiled the weekly logbook (`/docs/weekly-logbook.md`)[cite: 2].
+- **HTUN NAUNG OO:** Led the target respondent definition and prepared the non-leading discovery questions (`/docs/customer-questions.md`).
+- **MIN KHANT MAUNG MAUNG:** Conducted evidence collection, managed raw response data (`/data/raw-responses.xlsx`), and compiled problem notes (`/docs/problem-notes.md`).
+- **AUNG KHANT ZAYAR OO:** Analyzed collected data to build the assumption-evidence table (`/docs/assumption-evidence-table.md`) and wrote the problem findings summary (`/docs/customer-discovery-summary.md`).
+- **AUNG HTET THU:** Managed GitHub documentation, created/updated GitHub issues for customer discovery, updated `README.md`, and compiled the weekly logbook (`/docs/weekly-logbook.md`).
 
 ### Team Reflection
-- **Checkpoint Alignment:** We verified that our selected problem is grounded in actual user evidence rather than just team opinion[cite: 2]. We identified repeated workarounds and pain points that validate the need for an IT solution[cite: 2].
-- **Next Steps:** Use the customer evidence gathered in Lab 03 as the baseline to define the user persona, system requirements, user stories, and MVP feature list for Lab 04[cite: 1, 2].
+- **Checkpoint Alignment:** We verified that our selected problem is grounded in actual user evidence rather than just team opinion. We identified repeated workarounds and pain points that validate the need for an IT solution[cite: 2].
+- **Next Steps:** Use the customer evidence gathered in Lab 03 as the baseline to define the user persona, system requirements, user stories, and MVP feature list for Lab 04.
 
 ## Lab 04 Weekly Logbook
 
@@ -98,9 +98,6 @@ Conduct opportunity scanning in Lab 2 to select and validate the primary venture
 
 ## Lab 06 Weekly Logbook: Business Model & Technical Architecture
 
-### Repository Link
-- https://github.com/memory200/ICT111-SleepyGuys-MVP1
-
 ### Key Decisions & Progress
 - **Business Model Finalized:** Completed all 9 BMC building blocks customized to our group case (`/docs/business-model-canvas.md`).
 - **Feature-Value Mapping:** Linked all MVP features to requirement IDs, user value, business value, and prototype screens (`/docs/feature-value-mapping.md`).
@@ -117,3 +114,22 @@ Conduct opportunity scanning in Lab 2 to select and validate the primary venture
 ### Team Reflection
 - **Bridge to Implementation:** Lab 06 successfully bridged our product concept into a concrete, executable technical architecture baseline for prototype building.
 - **Next Steps:** Begin implementation of the frontend interface and integrate storage API for data collection and search querying.
+
+## Lab 07 Weekly Logbook: MVP Experiment Design
+
+### Key Decisions & Progress
+- **Critical Assumptions Ranked:** Identified high-risk usability and user problem assumptions to test before full prototype coding (`/docs/critical-assumptions.md`).
+- **Experiment Plan Defined:** Selected a Clickable Prototype / Form Simulation experiment mapping to Lab 04 requirements (`/docs/mvp-experiment-plan.md`).
+- **Success Metrics Set:** Established quantifiable targets (>= 70% task completion, <= 2 min time-on-task) and decision thresholds (`/docs/success-metrics.md`).
+- **Test Protocol & Feedback Prepared:** Created neutral tester scripts (`/docs/experiment-script.md`) and non-leading post-test feedback forms (`/docs/feedback-form.md`).
+- **Prototype Link Documented:** Linked all Lab 05 wireframe screens to the experiment setup (`/prototype/mvp-demo-link.md`).
+
+### Member Contributions
+- **HTUN NAUNG OO:** Authored critical assumptions matrix (`/docs/critical-assumptions.md`) and overall MVP experiment plan (`/docs/mvp-experiment-plan.md`).
+- **MIN KHANT MAUNG MAUNG:** Defined quantifiable success metrics (`/docs/success-metrics.md`) and compiled prototype demo links (`/prototype/mvp-demo-link.md`).
+- **AUNG KHANT ZAYAR OO:** Prepared tester task script (`/docs/experiment-script.md`) and neutral feedback survey (`/docs/feedback-form.md`).
+- **AUNG HTET THU:** Managed GitHub Issues, updated `README.md` with Lab 07 links, and compiled weekly logbook (`/docs/weekly-logbook.md`).
+
+### Team Reflection
+- **Evidence-Based Approach:** Lab 07 protects our team from building unvalidated features by establishing clear metrics before full prototype development.
+- **Next Steps:** Conduct testing sessions with 5-10 target campus users and log results into `/data/experiment-results.csv`.
