@@ -66,11 +66,21 @@ A centralized **Smart Campus Lost-and-Found Web Platform** where students can qu
 ---
 
 ## Lab 04 Documentation
-* ** [User Personal](docs/user-personal.md)
-* ** [System Requirements](docs/system-requirements.md)
-* ** [User Stories & Acceptance Criteria](docs/user-stories.md)
-* ** [MVP Feature List](docs/mvp-feature-list.md)
-* ** [Weekly Logbook](docs/weekly-logbook.md)
+### Problem Statement
+Campus students and staff frequently lose belongings but face difficulties locating them due to scattered, unorganized informal chat groups that suffer from message overload.
+
+### Solution Direction
+A centralized **Smart Campus Lost-and-Found Web System** allowing users to search categorized listings, upload found item reports, and view clear physical collection points at campus security desks.
+
+---
+
+##  Lab 04: Artifacts Baseline
+
+* **User Target:** Defined user persona baseline (`docs/user-personal.md`)
+* **System Requirements:** Established Functional & Non-Functional requirements (`docs/system-requirements.md`)
+* **User Stories:** Authored user stories with testable Acceptance Criteria (`docs/user-stories.md`)
+* **MVP Scope:** Prioritized core features using MoSCoW framework (`docs/mvp-feature-list.md`)
+* **Diagrams:** Integrated User Flow and Use Case diagrams (`diagram/` folder)
 
 ### Diagrams
 ![User Flow Diagram](diagram/flowchart.png)
