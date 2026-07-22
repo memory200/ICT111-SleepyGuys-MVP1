@@ -18,7 +18,7 @@ SleepyGuys
 | 6702854 | **HTUN NAUNG OO** | Product Lead | Overall team coordination, problem definition, Technical Lead, Docs Lead and project direction |
 | 6708563 | **MIN KHANT MAUNG MAUNG** | UX/UI Lead | Design interface screens, wireframes, and user flow |
 | 6610464 | **AUNG KHANT ZAYAR OO** | Validation Lead | Manage customer discovery and validation metrics |
-| 6709782 | **HTET THU** | Presentation | Manage repo, prototype feasibility, and documentation |
+| 6709782 | **AUNG HTET THU** | Presentation | Manage repo, prototype feasibility, and documentation |
 
 ---
 
