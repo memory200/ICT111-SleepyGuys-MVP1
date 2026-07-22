@@ -86,21 +86,6 @@ A centralized **Smart Campus Lost-and-Found Web System** allowing users to searc
 ![User Flow Diagram](diagram/flowchart.png)
 ![Use Case Diagram](diagram/usecasediagram.png)
 
-# Smart Campus Lost-and-Found System
-
-**Repository Name:** `ICT111-SleepyGuys-MVP1`
-
----
-
-##  Venture Overview
-
-### Problem Statement
-Campus students and staff frequently lose belongings but face difficulties locating them due to scattered, unorganized informal chat groups that suffer from message overload.
-
-### Solution Direction
-A centralized **Smart Campus Lost-and-Found Web System** allowing users to search categorized listings, upload found item reports, and view clear physical collection points at campus security desks.
-
----
 
 ##  Lab 05 Artifacts Baseline (Product Concept & UI/UX Wireframes)
 
