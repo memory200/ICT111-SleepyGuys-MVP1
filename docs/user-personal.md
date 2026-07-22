@@ -1,4 +1,4 @@
-# User Persona: Smart Campus Lost-and-Found System
+# User Personal: Smart Campus Lost-and-Found System
 
 ## Primary Persona: Alex (The Busy Campus Student)
 
