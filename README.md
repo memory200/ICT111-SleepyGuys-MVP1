@@ -223,11 +223,11 @@ The team will revise the prototype based on user feedback before moving into ful
 ## Lab 09 - Responsible IT Check
 
 ### Responsible Design Summary
-Before finalizing our MVP prototype (`v1.0-EJS`), our team conducted a comprehensive responsible IT design check for the **Smart Campus Lost-and-Found System**[cite: 6]:
-- **Privacy & Data Protection:** Applied data minimization principles to ensure we only collect necessary operational fields (such as item descriptions and security location tags) while avoiding unnecessary personal/sensitive user data[cite: 6].
-- **Ethical Considerations:** Guaranteed equal access for both Students and Security Staff without misleading status displays or deceptive reporting mechanisms[cite: 6].
-- **Intellectual Property (IP):** Cataloged all open-source UI frameworks, fonts, and icon sets (Bootstrap/Tailwind, Lucide Icons) with appropriate MIT/CC license attribution[cite: 6].
-- **Basic Security Controls:** Implemented form validation for location tagging (`FR-1.2`), restricted status modification access to the Security Admin Console (`FR-3.2`), and enforced file type constraints (`.jpg`, `.png`) on photo submissions (`FR-1.1`)[cite: 6].
+Before finalizing our MVP prototype (`v1.0-EJS`), our team conducted a comprehensive responsible IT design check for the **Smart Campus Lost-and-Found System**:
+- **Privacy & Data Protection:** Applied data minimization principles to ensure we only collect necessary operational fields (such as item descriptions and security location tags) while avoiding unnecessary personal/sensitive user data.
+- **Ethical Considerations:** Guaranteed equal access for both Students and Security Staff without misleading status displays or deceptive reporting mechanisms.
+- **Intellectual Property (IP):** Cataloged all open-source UI frameworks, fonts, and icon sets (Bootstrap/Tailwind, Lucide Icons) with appropriate MIT/CC license attribution.
+- **Basic Security Controls:** Implemented form validation for location tagging (`FR-1.2`), restricted status modification access to the Security Admin Console (`FR-3.2`), and enforced file type constraints (`.jpg`, `.png`) on photo submissions (`FR-1.1`).
 
 ### Files Added
 - docs/legal-ethical-checklist.md
@@ -239,14 +239,14 @@ Before finalizing our MVP prototype (`v1.0-EJS`), our team conducted a comprehen
 - docs/weekly-logbook.md
 
 ### Requirement Update
-Yes, `system-requirements.md` was updated following the Lab 09 review[cite: 6]. Specifically, `FR-1.2` (Location Field Validation) was updated to enforce mandatory dropdown selection and input validation[cite: 6]. This change prevents user input errors identified during testing (`User_05`) and enhances report data integrity[cite: 6]. The update is documented in `docs/updated-requirements-note.md` and linked to GitHub Issue #12[cite: 6].
+Yes, `system-requirements.md` was updated following the Lab 09 review[cite: 6]. Specifically, `FR-1.2` (Location Field Validation) was updated to enforce mandatory dropdown selection and input validation. This change prevents user input errors identified during testing (`User_05`) and enhances report data integrity. The update is documented in `docs/updated-requirements-note.md` and linked to GitHub Issue #12.
 
 ### Team Contributions
-All group members (ICT111 - Sleepy Guys) actively contributed to this lab's deliverables in the repository[cite: 6]:
-- **HTUN NAUNG OO:** Authored `docs/legal-ethical-checklist.md` and `docs/privacy-and-data-protection.md`[cite: 6].
-- **MIN KHANT MAUNG MAUNG:** Created `docs/ip-and-third-party-assets.md` and documented `docs/updated-requirements-note.md`[cite: 6].
-- **AUNG KHANT ZAYAR OO:** Conducted the security risk audit and compiled `docs/security-risk-check.md`[cite: 6].
-- **AUNG HTET THU:** Constructed `docs/risk-register.md`, updated `docs/weekly-logbook.md`, and integrated the Lab 09 section into `README.md`[cite: 6, 7].
+All group members (ICT111 - Sleepy Guys) actively contributed to this lab's deliverables in the repository:
+- **HTUN NAUNG OO:** Authored `docs/legal-ethical-checklist.md` and `docs/privacy-and-data-protection.md`.
+- **MIN KHANT MAUNG MAUNG:** Created `docs/ip-and-third-party-assets.md` and documented `docs/updated-requirements-note.md`.
+- **AUNG KHANT ZAYAR OO:** Conducted the security risk audit and compiled `docs/security-risk-check.md`.
+- **AUNG HTET THU:** Constructed `docs/risk-register.md`, updated `docs/weekly-logbook.md`, and integrated the Lab 09 section into `README.md`.
 
 ## Lab 10 - MVP Implementation Sprint 1
 
@@ -254,10 +254,10 @@ All group members (ICT111 - Sleepy Guys) actively contributed to this lab's deli
 Our goal in Lab 10 is to begin building the first working version of the prototype based on the approved requirements, wireframes, architecture, and responsible-design checks for the Smart Campus Lost-and-Found System[cite: 8, 9].
 
 ### Implementation Approach
-- **Platform/tools:** Frontend Web Prototype (HTML5, CSS3, Vanilla JavaScript)[cite: 8]
-- **Backend status:** Frontend-only simulation (No complex backend overhead required for Sprint 1)[cite: 8]
-- **Data storage/simulation:** Web `localStorage` API with initial sample dataset[cite: 8]
-- **Prototype link or folder:** `/prototype/` directory (`/prototype/index.html`)[cite: 8]
+- **Platform/tools:** Frontend Web Prototype (HTML5, CSS3, Vanilla JavaScript)
+- **Backend status:** Frontend-only simulation (No complex backend overhead required for Sprint 1)
+- **Data storage/simulation:** Web `localStorage` API with initial sample dataset
+- **Prototype link or folder:** `/prototype/` directory (`/prototype/index.html`)
 
 ### Features Implemented in Sprint 1
 
@@ -273,27 +273,27 @@ Our goal in Lab 10 is to begin building the first working version of the prototy
 | Dashboard | NFR-01 | Working Draft | `/screenshots/homepage.png` |
 
 ### Screenshots
-- **Homepage:** `/screenshots/homepage.png`[cite: 8]
-- **Input form:** `/screenshots/input-form.png`[cite: 8]
-- **Record list:** `/screenshots/record-list.png`[cite: 8]
-- **Detail view:** `/screenshots/detail-view.png`[cite: 8]
-- **Admin/status view:** `/screenshots/admin-view.png`[cite: 8]
+- **Homepage:** `/screenshots/homepage.png`
+- **Input form:** `/screenshots/input-form.png`
+- **Record list:** `/screenshots/record-list.png`
+- **Detail view:** `/screenshots/detail-view.png`
+- **Admin/status view:** `/screenshots/admin-view.png`
 
 ### Team Contribution
-All group members (ICT111 - Sleepy Guys) contributed to the same GitHub repository/page for Sprint 1 implementation[cite: 8, 9]:
-- **HTUN NAUNG OO:** Structured HTML views and layout setup in `/prototype/index.html`[cite: 8].
-- **MIN KHANT MAUNG MAUNG:** Designed responsive CSS styles in `/prototype/style.css`[cite: 8].
-- **AUNG KHANT ZAYAR OO:** Implemented JS data logic, search filtering, and status updates in `/prototype/script.js`[cite: 8].
-- **AUNG HTET THU:** Updated feature status tables, documented Sprint 1 progress, captured screenshot evidence, and updated `README.md` & weekly logbook[cite: 8].
+All group members (ICT111 - Sleepy Guys) contributed to the same GitHub repository/page for Sprint 1 implementation:
+- **HTUN NAUNG OO:** Structured HTML views and layout setup in `/prototype/index.html`.
+- **MIN KHANT MAUNG MAUNG:** Designed responsive CSS styles in `/prototype/style.css`.
+- **AUNG KHANT ZAYAR OO:** Implemented JS data logic, search filtering, and status updates in `/prototype/script.js`.
+- **AUNG HTET THU:** Updated feature status tables, documented Sprint 1 progress, captured screenshot evidence, and updated `README.md` & weekly logbook.
 
 ## Lab 11: MVP Implementation Sprint 2 and Startup Metrics
 
 ### Prototype Progress
 In Lab 11 (Sprint 2), the SleepyGuys group improved the prototype from a basic frontend implementation into a fully functional and measurable startup solution:
-- **Enhanced Data Handling:** Implemented structured data persistence and simulated database logic using `localStorage` and `data.json` / CSV datasets[cite: 2].
-- **Advanced Search & Filtering:** Upgraded search capabilities to allow real-time filtering by category, status, and device/location[cite: 2].
-- **Admin Workflow & Status Management:** Built administrative status update features (e.g., updating cases from "Pending" to "Claimed" or "Closed")[cite: 2].
-- **Product Activity & Metrics:** Designed and embedded startup metrics dashboards to monitor operational performance and system usage[cite: 2].
+- **Enhanced Data Handling:** Implemented structured data persistence and simulated database logic using `localStorage` and `data.json` / CSV datasets[.
+- **Advanced Search & Filtering:** Upgraded search capabilities to allow real-time filtering by category, status, and device/location.
+- **Admin Workflow & Status Management:** Built administrative status update features (e.g., updating cases from "Pending" to "Claimed" or "Closed").
+- **Product Activity & Metrics:** Designed and embedded startup metrics dashboards to monitor operational performance and system usage.
 
 ---
 
@@ -308,68 +308,67 @@ In Lab 11 (Sprint 2), the SleepyGuys group improved the prototype from a basic f
 ---
 
 ### Startup/Product Metrics
-The following 6 metrics were established and documented in `/docs/startup-metrics.md` to evaluate system activity[cite: 2]:
-1. **Total Records (Usage Metric):** Total number of submitted records (Current: 15)[cite: 2].
-2. **Pending Cases (Status Metric):** Unresolved items awaiting action (Current: 7)[cite: 2].
-3. **Resolved/Claimed Cases (Status Metric):** Successfully resolved cases (Current: 8)[cite: 2].
-4. **Top Category (Category Metric):** Most active item category (Current: Electronics - 40%)[cite: 2].
-5. **Average Resolution Time (Operational Metric):** Average days to resolve a case (Current: 2.5 days)[cite: 2].
-6. **Task Success Rate (Validation Metric):** User task completion rate during testing (Current: 85%)[cite: 2].
+The following 6 metrics were established and documented in `/docs/startup-metrics.md` to evaluate system activity:
+1. **Total Records (Usage Metric):** Total number of submitted records (Current: 15).
+2. **Pending Cases (Status Metric):** Unresolved items awaiting action (Current: 7).
+3. **Resolved/Claimed Cases (Status Metric):** Successfully resolved cases (Current: 8).
+4. **Top Category (Category Metric):** Most active item category (Current: Electronics - 40%).
+5. **Average Resolution Time (Operational Metric):** Average days to resolve a case (Current: 2.5 days).
+6. **Task Success Rate (Validation Metric):** User task completion rate during testing (Current: 85%).
 
 ---
 
 ### Prototype Screenshots
-- **Homepage:** `screenshots/homepage.png`[cite: 2]
-- **Input Form:** `screenshots/input-form.png`[cite: 2]
-- **Record List & Search:** `screenshots/record-list.png`[cite: 2]
-- **Item Detail View:** `screenshots/detail-view.png`[cite: 2]
-- **Admin Status Update:** `screenshots/admin-view.png`[cite: 2]
-- **Metrics Dashboard:** `screenshots/lab11-powerbi-dashboard.png.png`[cite: 2]
+- **Homepage:** `screenshots/homepage.png`
+- **Input Form:** `screenshots/input-form.png`
+- **Record List & Search:** `screenshots/record-list.png`
+- **Item Detail View:** `screenshots/detail-view.png`
+- **Admin Status Update:** `screenshots/admin-view.png`
+- **Metrics Dashboard:** `screenshots/lab11-powerbi-dashboard.png.png`
 
 ---
 
 ### Member Contributions
-- **HTUN NAUNG OO:** Upgraded data handling logic, implemented localStorage integration, and documented testing notes in `/docs/prototype-testing-notes.md`[cite: 2].
-- **MIN KHANT MAUNG MAUNG:** Developed dynamic search/filter features and updated `/docs/feature-implementation-status.md`[cite: 2].
-- **AUNG KHANT ZAYAR OO:** Designed admin status update UI components and detail views[cite: 2].
-- **AUNG HTET THU:** Built the Power BI startup metrics dashboard and authored `/docs/startup-metrics.md`[cite: 2].
-- **HTUN NAUNG OO:** Updated GitHub repository structure, organized screenshot evidence, and updated `README.md`[cite: 2].
+- **HTUN NAUNG OO:** Upgraded data handling logic, implemented localStorage integration, and documented testing notes in `/docs/prototype-testing-notes.md`
+- **MIN KHANT MAUNG MAUNG:** Developed dynamic search/filter features and updated `/docs/feature-implementation-status.md`
+- **AUNG KHANT ZAYAR OO:** Designed admin status update UI components and detail views.
+- **AUNG HTET THU:** Built the Power BI startup metrics dashboard and authored `/docs/startup-metrics.md`
+- **HTUN NAUNG OO:** Updated GitHub repository structure, organized screenshot evidence, and updated `README.md`
 
 ---
 
 ### Remaining Work
-- Finalize complete user authentication and role-based permissions[cite: 2].
-- Add automated email/SMS alert notifications for status changes[cite: 2].
-- Conduct final end-to-end user acceptance testing prior to the final semester submission[cite: 2].
+- Finalize complete user authentication and role-based permissions.
+- Add automated email/SMS alert notifications for status changes.
+- Conduct final end-to-end user acceptance testing prior to the final semester submission.
 
 - ## Lab 12 - Landing Page and Digital Go-to-Market
 
 ### Landing Page
-- **Landing page folder/link:** `/landing-page/index.html`[cite: 7, 12]
-- **Main CTA:** "Try Demo Prototype"[cite: 7, 9, 12]
-- **Prototype/demo link:** `/prototype/index.html`[cite: 7, 12]
+- **Landing page folder/link:** `/landing-page/index.html`
+- **Main CTA:** "Try Demo Prototype"
+- **Prototype/demo link:** `/prototype/index.html`
 
 ### Go-to-Market Plan
-- **Target early users:** Campus undergraduate and graduate students, faculty staff, and administrative personnel[cite: 7, 8, 12].
-- **Selected channels:** Class Chat Groups (Telegram), Campus Poster QR Codes (Cafeteria/Library), and Student Community Instagram Stories[cite: 7, 8, 10, 12].
-- **Main marketing message:** "Find and report lost campus belongings effortlessly with real-time tracking."[cite: 7, 9, 10, 12]
-
+- **Target early users:** Campus undergraduate and graduate students, faculty staff, and administrative personnel
+- **Selected channels:** Class Chat Groups (Telegram), Campus Poster QR Codes (Cafeteria/Library), and Student Community Instagram Stories
+- **Main marketing message:** "Find and report lost campus belongings effortlessly with real-time tracking."
 ### Acquisition Metrics
-- **Metric 1:** Landing Page Views (Target: 100+ views)[cite: 7, 11, 12]
-- **Metric 2:** CTA Click-Through Rate (Target: >30% click rate)[cite: 7, 11, 12]
-- **Metric 3:** Demo Attempts & Conversion Rate (Target: >20% engagement)[cite: 7, 11, 12]
+- **Metric 1:** Landing Page Views (Target: 100+ views)
+- **Metric 2:** CTA Click-Through Rate (Target: >30% click rate)
+- **Metric 3:** Demo Attempts & Conversion Rate (Target: >20% engagement)
 
 ### Screenshots
-- **Landing page screenshot:** `/screenshots/landing-page.png`[cite: 7, 12]
-- **CTA screenshot:** `/screenshots/call-to-action.png`[cite: 7, 12]
+- **Landing page screenshot:** `/screenshots/landing-page.png`
+- **CTA screenshot:** `/screenshots/call-to-action.png`
 
 ### Requirement Alignment
-The landing page directly aligns with `system-requirements.md` by highlighting core prototype features including Item Submission (FR-03), Search & Filter (FR-06), Admin Status Management (FR-08), and Analytics Dashboard (FR-12)[cite: 7, 9, 12]. The CTA button directly connects users to the functional interactive prototype without making unsupported feature promises[cite: 7, 12].
+The landing page directly aligns with `system-requirements.md` by highlighting core prototype features including Item Submission (FR-03), Search & Filter (FR-06), Admin Status Management (FR-08), and Analytics Dashboard (FR-12). The CTA button directly connects users to the functional interactive prototype without making unsupported feature promises
 
 ### Member Contributions
 | Member | Contribution | Commit/Issue Evidence |
 | --- | --- | --- |
-| HTUN NAUNG OO | Built Landing Page HTML/CSS structure and integrated prototype CTA button | Commit / PR #1[cite: 7, 12] |
-| MIN KHANT MAUNG MAUNG | Drafted Landing Page content copy and channel marketing messages | Commit / PR #2[cite: 7, 12] |
-| AUNG KHANT ZAYAR OO | Formulated Go-to-Market strategy and acquisition metrics framework | Commit / PR #3[cite: 7, 12] |
-| AUNG HTET THU | Created CSV metrics tracking template, captured screenshots, and updated README | Commit / PR #4[cite: 7, 12] |
+| HTUN NAUNG OO | Built Landing Page HTML/CSS structure and integrated prototype CTA button | Commit / PR #1 |
+| MIN KHANT MAUNG MAUNG | Drafted Landing Page content copy and channel marketing messages | Commit / PR #2 |
+| AUNG KHANT ZAYAR OO | Formulated Go-to-Market strategy and acquisition metrics framework | Commit / PR #3 |
+| AUNG HTET THU | Created CSV metrics tracking template, captured screenshots, and updated README | Commit / PR #4 |
