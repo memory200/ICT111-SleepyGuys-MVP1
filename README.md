@@ -302,7 +302,7 @@ In Lab 11 (Sprint 2), the SleepyGuys group improved the prototype from a basic f
 |---|---|---|---|
 | **FR-03** | Item Reporting Form with Validation | Completed | `screenshots/input-form.png` |
 | **FR-06** | Search & Filter Record List | Completed | `screenshots/record-list-search.png` |
-| **FR-08** | Admin Status Management | Completed | `screenshots/admin-status-update.png` |
+| **FR-08** | Admin Status Management | Completed | `screenshots/admin-view.png` |
 | **FR-12** | Startup/Product Metrics Dashboard | Completed | `screenshots/metrics-dashboard.png` |
 
 ---
@@ -319,12 +319,12 @@ The following 6 metrics were established and documented in `/docs/startup-metric
 ---
 
 ### Prototype Screenshots
-- **Homepage:** `homepage.png`[cite: 2]
-- **Input Form:** `![Input Form](screenshots/input-form.png)`[cite: 2]
-- **Record List & Search:** `![Record List](screenshots/record-list-search.png)`[cite: 2]
-- **Item Detail View:** `![Item Detail](screenshots/item-detail.png)`[cite: 2]
-- **Admin Status Update:** `![Admin View](screenshots/admin-status-update.png)`[cite: 2]
-- **Metrics Dashboard:** `![Dashboard](screenshots/metrics-dashboard.png)`[cite: 2]
+- **Homepage:** `screenshots/homepage.png`[cite: 2]
+- **Input Form:** `screenshots/input-form.png`[cite: 2]
+- **Record List & Search:** `screenshots/record-list.png`[cite: 2]
+- **Item Detail View:** `screenshots/detail-view.png`[cite: 2]
+- **Admin Status Update:** `screenshots/admin-view.png`[cite: 2]
+- **Metrics Dashboard:** `screenshots/lab11-powerbi-dashboard.png.png`[cite: 2]
 
 ---
 
