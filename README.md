@@ -219,3 +219,31 @@ The team will revise the prototype based on user feedback before moving into ful
 - `/docs/mvp-decision.md`
 - `/screenshots/lab08-powerbi-dashboard.png`
 - `/docs/weekly-logbook.md`
+
+## Lab 09 - Responsible IT Check
+
+### Responsible Design Summary
+Before finalizing our MVP prototype (`v1.0-EJS`), our team conducted a comprehensive responsible IT design check for the **Smart Campus Lost-and-Found System**[cite: 6]:
+- **Privacy & Data Protection:** Applied data minimization principles to ensure we only collect necessary operational fields (such as item descriptions and security location tags) while avoiding unnecessary personal/sensitive user data[cite: 6].
+- **Ethical Considerations:** Guaranteed equal access for both Students and Security Staff without misleading status displays or deceptive reporting mechanisms[cite: 6].
+- **Intellectual Property (IP):** Cataloged all open-source UI frameworks, fonts, and icon sets (Bootstrap/Tailwind, Lucide Icons) with appropriate MIT/CC license attribution[cite: 6].
+- **Basic Security Controls:** Implemented form validation for location tagging (`FR-1.2`), restricted status modification access to the Security Admin Console (`FR-3.2`), and enforced file type constraints (`.jpg`, `.png`) on photo submissions (`FR-1.1`)[cite: 6].
+
+### Files Added
+- docs/legal-ethical-checklist.md
+- docs/privacy-and-data-protection.md
+- docs/ip-and-third-party-assets.md
+- docs/security-risk-check.md
+- docs/risk-register.md
+- docs/updated-requirements-note.md
+- docs/weekly-logbook.md
+
+### Requirement Update
+Yes, `system-requirements.md` was updated following the Lab 09 review[cite: 6]. Specifically, `FR-1.2` (Location Field Validation) was updated to enforce mandatory dropdown selection and input validation[cite: 6]. This change prevents user input errors identified during testing (`User_05`) and enhances report data integrity[cite: 6]. The update is documented in `docs/updated-requirements-note.md` and linked to GitHub Issue #12[cite: 6].
+
+### Team Contributions
+All group members (ICT111 - Sleepy Guys) actively contributed to this lab's deliverables in the repository[cite: 6]:
+- **HTUN NAUNG OO:** Authored `docs/legal-ethical-checklist.md` and `docs/privacy-and-data-protection.md`[cite: 6].
+- **MIN KHANT MAUNG MAUNG:** Created `docs/ip-and-third-party-assets.md` and documented `docs/updated-requirements-note.md`[cite: 6].
+- **AUNG KHANT ZAYAR OO:** Conducted the security risk audit and compiled `docs/security-risk-check.md`[cite: 6].
+- **AUNG HTET THU:** Constructed `docs/risk-register.md`, updated `docs/weekly-logbook.md`, and integrated the Lab 09 section into `README.md`[cite: 6, 7].
