@@ -341,3 +341,35 @@ The following 6 metrics were established and documented in `/docs/startup-metric
 - Finalize complete user authentication and role-based permissions[cite: 2].
 - Add automated email/SMS alert notifications for status changes[cite: 2].
 - Conduct final end-to-end user acceptance testing prior to the final semester submission[cite: 2].
+
+- ## Lab 12 - Landing Page and Digital Go-to-Market
+
+### Landing Page
+- **Landing page folder/link:** `/landing-page/index.html`[cite: 7, 12]
+- **Main CTA:** "Try Demo Prototype"[cite: 7, 9, 12]
+- **Prototype/demo link:** `/prototype/index.html`[cite: 7, 12]
+
+### Go-to-Market Plan
+- **Target early users:** Campus undergraduate and graduate students, faculty staff, and administrative personnel[cite: 7, 8, 12].
+- **Selected channels:** Class Chat Groups (Telegram), Campus Poster QR Codes (Cafeteria/Library), and Student Community Instagram Stories[cite: 7, 8, 10, 12].
+- **Main marketing message:** "Find and report lost campus belongings effortlessly with real-time tracking."[cite: 7, 9, 10, 12]
+
+### Acquisition Metrics
+- **Metric 1:** Landing Page Views (Target: 100+ views)[cite: 7, 11, 12]
+- **Metric 2:** CTA Click-Through Rate (Target: >30% click rate)[cite: 7, 11, 12]
+- **Metric 3:** Demo Attempts & Conversion Rate (Target: >20% engagement)[cite: 7, 11, 12]
+
+### Screenshots
+- **Landing page screenshot:** `/screenshots/landing-page.png`[cite: 7, 12]
+- **CTA screenshot:** `/screenshots/call-to-action.png`[cite: 7, 12]
+
+### Requirement Alignment
+The landing page directly aligns with `system-requirements.md` by highlighting core prototype features including Item Submission (FR-03), Search & Filter (FR-06), Admin Status Management (FR-08), and Analytics Dashboard (FR-12)[cite: 7, 9, 12]. The CTA button directly connects users to the functional interactive prototype without making unsupported feature promises[cite: 7, 12].
+
+### Member Contributions
+| Member | Contribution | Commit/Issue Evidence |
+| --- | --- | --- |
+| HTUN NAUNG OO | Built Landing Page HTML/CSS structure and integrated prototype CTA button | Commit / PR #1[cite: 7, 12] |
+| MIN KHANT MAUNG MAUNG | Drafted Landing Page content copy and channel marketing messages | Commit / PR #2[cite: 7, 12] |
+| AUNG KHANT ZAYAR OO | Formulated Go-to-Market strategy and acquisition metrics framework | Commit / PR #3[cite: 7, 12] |
+| AUNG HTET THU | Created CSV metrics tracking template, captured screenshots, and updated README | Commit / PR #4[cite: 7, 12] |
