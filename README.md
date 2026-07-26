@@ -319,7 +319,7 @@ The following 6 metrics were established and documented in `/docs/startup-metric
 ---
 
 ### Prototype Screenshots
-- **Homepage:** `![Homepage](screenshots/homepage.png)`[cite: 2]
+- **Homepage:** `homepage.png`[cite: 2]
 - **Input Form:** `![Input Form](screenshots/input-form.png)`[cite: 2]
 - **Record List & Search:** `![Record List](screenshots/record-list-search.png)`[cite: 2]
 - **Item Detail View:** `![Item Detail](screenshots/item-detail.png)`[cite: 2]
