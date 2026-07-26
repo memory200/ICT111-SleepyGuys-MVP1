@@ -1,19 +1,20 @@
 # Validation Analytics & Insights
 
-## 1. Quantitative Metrics Calculations
-
-| Metric | Calculation / Result | Threshold Target | Status / Interpretation |
-| :--- | :--- | :--- | :--- |
-| **Task Success Rate** | 7 Completed ÷ 8 Total = **87.5%** | ≥ 80% | **PASSED:** Core workflows are intuitive. |
-| **Average Task Duration** | (75+45+30+60+120+50+85+40) ÷ 8 = **63.1s** | < 90s | **PASSED:** Users complete tasks efficiently. |
-| **Average Feedback Score** | (5+4+5+4+2+4+4+5) ÷ 8 = **4.13 / 5** | ≥ 4.0 | **PASSED:** High overall satisfaction. |
-| **Average Interest Level** | (5+5+4+4+3+5+4+5) ÷ 8 = **4.38 / 5** | ≥ 4.0 | **PASSED:** Strong demand for campus deployment. |
-
+## 1. Executive Summary & KPIs
+* **Total Tests Conducted:** 8 User Validation Sessions
+* **Task Success Rate:** **87.5%** (Target: ≥ 80%) — **PASSED**
+* **Average Ease of Use Score:** **4.13 / 5.0** (Target: ≥ 3.5) — **PASSED**
+* **Interest Rate (Would Use Again):** **87.5%** (Target: ≥ 70%) — **PASSED**
+* **Confusion Rate:** **37.5%** (3 out of 8 users experienced minor friction)
 ---
 
-## 2. Qualitative Confusion Points & Requirement Impact
+## 2. Key Insights from Dashboard
 
-* **Issue 1 (FR-1.2 Location Tagging):** 1 user failed task due to unclear location selection.
-  * *Fix:* Add dropdown preset locations (e.g., "Building A - Library", "Building C - Canteen").
-* **Issue 2 (FR-3.2 Admin Action Button):** Staff noted action buttons needed better highlight.
-  * *Fix:* Improve CSS styling for status change action buttons in admin console.
+### A. Core Friction Points (`ConfusionPoint`)
+1. **Required Location Field (FR-1.2):** Free-text location input caused uncertainty for 1 user during item reporting.
+2. **Category Filter Dropdown (FR-2.2):** Visual contrast was slightly low on dark background.
+3. **Status Update Button (FR-3.2):** Admin users suggested making action buttons more prominent.
+
+### B. Most Useful Features (`MostUsefulFeature`)
+* **Image Upload & Preview (FR-1.1):** Top-rated feature by student reporters.
+* **Quick Search & Filter (FR-2.2):** Highly appreciated for fast item lookup.
