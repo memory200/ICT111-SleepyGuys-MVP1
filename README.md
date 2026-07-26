@@ -156,16 +156,37 @@ Our prototype uses a **Frontend + Express.js Web Server (EJS) with Local Dataset
 
 ## Final Prototype Connection
 The business canvas and architecture defined in Lab 06 serve as the technical blueprint for our final project deliverable. They map our system requirements (`FR-1.1`, `FR-1.2`, `FR-2.2`, `FR-3.1`, `FR-3.2`) directly to data models and system components, ensuring that every user interface element and API endpoint directly fulfills documented user needs and business value.
-##  Lab 07 Artifacts Baseline (MVP Experiment Design)
 
-* **Critical Assumptions:** Identified and ranked top risky assumptions using a Risk Matrix (`docs/critical-assumptions.md`).
-* **MVP Experiment Plan:** Outlined prototype testing scope and mapped screens to requirement IDs (`docs/mvp-experiment-plan.md`).
-* **Tester Script:** Prepared standardized task flows for student and security staff persona testing (`docs/demo-script.md`).
-* **Success Metrics:** Defined measurable thresholds for task completion rate and duration (`docs/acquisition-metrics.md`).
-* **Feedback Questionnaire:** Created neutral post-experiment feedback questions (`docs/feedback-form.md`).
 
----
-# README Update - Lab 08
+## Lab 07: MVP Experiment Design
+
+### Experiment Objective
+The objective of this experiment was to test the usability, workflow efficiency, and user demand for our Smart Campus Lost-and-Found System MVP (`v1.0-EJS`) before proceeding to full-scale backend development. We aimed to evaluate photo uploads, category searches, location tagging, and status updates with real target users.
+
+### Critical Assumptions
+1. **Usability Assumption:** Campus students can easily navigate the report form, upload item photos (`FR-1.1`), and select accurate location tags (`FR-1.2`) without assistance.
+2. **Value Assumption:** Students actively prefer searching a digital lost-and-found system (`FR-2.2`) over visiting physical security desks or posting on social media.
+3. **Operational Assumption:** Campus security staff will regularly use the admin console (`FR-3.2`) to update claim statuses and manage reported items.
+
+### MVP Experiment Type
+We selected a **Wizard of Oz / Interactive Prototype Experiment** using our Express.js web server (`v1.0-EJS`). This fit our project because it allowed real users to interact with actual UI flows (uploading photos, searching, filtering) while storing test results locally, giving us realistic usability feedback without complex database infrastructure.
+
+### Success Metrics
+- **Task Success Rate:** Minimum 80% completion rate for main workflows (Achieved: **87.5%** in Lab 08).
+- **Usability Score:** Average ease-of-use rating above 3.5 / 5.0 (Achieved: **4.12 / 5.00** in Lab 08).
+- **User Interest Level:** Average interest rating above 4.0 / 5.0 (Achieved: **4.38 / 5.00** in Lab 08).
+- **Efficiency:** Average completion time under 90 seconds (Achieved: **63.1 seconds** in Lab 08).
+
+### Files Added in Lab 07
+- `/docs/mvp-experiment-plan.md`
+- `/docs/critical-assumptions.md`
+- `/docs/experiment-script.md`
+- `/docs/success-metrics.md`
+- `/docs/feedback-form.md`
+- `/docs/weekly-logbook.md`
+
+### Connection to Final Prototype
+This experiment validated that our core product concept resonates with users while highlighting specific friction points (such as location field validation and status button visibility). The empirical evidence collected directly guides our UI/UX revisions and feature prioritizing before delivering the final prototype.
 
 ## Lab 08: Customer Validation and Analytics Sheet
 
