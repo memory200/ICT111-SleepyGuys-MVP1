@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Campus Lost & Found Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo"><i class="fa-solid fa-box-archive"></i> Campus Lost&Found</div>
+        <ul class="nav-links">
+            <li><a href="#" onclick="showSection('home')">Home</a></li>
+            <li><a href="#" onclick="showSection('report')">Report Item</a></li>
+            <li><a href="#" onclick="showSection('records')">Browse Records</a></li>
+            <li><a href="#" onclick="showSection('admin')">Security Desk</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <!-- Section 1: Homepage / Landing -->
+        <section id="home-section" class="active-section">
+            <div class="hero-banner">
+                <h1>Lost Something on Campus?</h1>
+                <p>Report lost items, view found records, and manage claims securely.</p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="showSection('report')"><i class="fa-solid fa-plus"></i> Report Found Item</button>
+                    <button class="btn btn-secondary" onclick="showSection('records')"><i class="fa-solid fa-magnifying-glass"></i> Search Items</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 2: Input Form (FR-1.1, FR-1.2) -->
+        <section id="report-section" class="hidden-section">
+            <h2><i class="fa-solid fa-pen-to-square"></i> Report an Item</h2>
+            <form id="itemForm" onsubmit="handleFormSubmit(event)">
+                <div class="form-group">
+                    <label for="itemName">Item Name *</label>
+                    <input type="text" id="itemName" required placeholder="e.g. Wireless Headphones">
+                </div>
+                <div class="form-group">
+                    <label for="category">Category *</label>
+                    <select id="category" required>
+                        <option value="">Select Category</option>
+                        <option value="Electronics">Electronics</option>
+                        <option value="Personal Belongings">Personal Belongings</option>
+                        <option value="Documents/Cards">Documents / Cards</option>
+                        <option value="Keys">Keys</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="location">Campus Location * (FR-1.2 Dropdown)</label>
+                    <select id="location" required>
+                        <option value="">Select Building/Location</option>
+                        <option value="Main Library">Main Library</option>
+                        <option value="Building A - Engineering">Building A - Engineering</option>
+                        <option value="Building B - Business">Building B - Business</option>
+                        <option value="Student Cafeteria">Student Cafeteria</option>
+                        <option value="Sports Complex">Sports Complex</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="description">Description *</label>
+                    <textarea id="description" rows="3" required placeholder="Color, brand, or distinguishing features..."></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="contact">Contact Info (Email/Phone) *</label>
+                    <input type="text" id="contact" required placeholder="student@campus.edu">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit Report</button>
+            </form>
+        </section>
+
+        <!-- Section 3: Record List & Search/Filter (FR-2.2) -->
+        <section id="records-section" class="hidden-section">
+            <h2><i class="fa-solid fa-list"></i> Browse Reported Items</h2>
+            <div class="filter-box">
+                <input type="text" id="searchInput" placeholder="Search by keyword..." onkeyup="filterItems()">
+                <select id="categoryFilter" onchange="filterItems()">
+                    <option value="All">All Categories</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Personal Belongings">Personal Belongings</option>
+                    <option value="Documents/Cards">Documents/Cards</option>
+                    <option value="Keys">Keys</option>
+                </select>
+            </div>
+            <div id="itemList" class="card-grid"></div>
+        </section>
+
+        <!-- Section 4: Security Desk Admin (FR-3.2) -->
+        <section id="admin-section" class="hidden-section">
+            <h2><i class="fa-solid fa-user-shield"></i> Security Desk Admin Console</h2>
+            <p>Manage and update lost & found item statuses.</p>
+            <table class="admin-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Item Name</th>
+                        <th>Category</th>
+                        <th>Location</th>
+                        <th>Current Status</th>
+                        <th>Action (FR-3.2)</th>
+                    </tr>
+                </thead>
+                <tbody id="adminTableBody"></tbody>
+            </table>
+        </section>
+
+        <!-- Detail Modal View (FR-3.1) -->
+        <div id="detailModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeModal()">&times;</span>
+                <h3 id="modalTitle">Item Details</h3>
+                <hr>
+                <p><strong>Category:</strong> <span id="modalCategory"></span></p>
+                <p><strong>Location:</strong> <span id="modalLocation"></span></p>
+                <p><strong>Description:</strong> <span id="modalDescription"></span></p>
+                <p><strong>Status:</strong> <span id="modalStatus"></span></p>
+                <p><strong>Contact:</strong> <span id="modalContact"></span></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
