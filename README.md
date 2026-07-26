@@ -130,9 +130,36 @@ A centralized **Smart Campus Lost-and-Found Web System** allowing users to searc
 * **Feedback Questionnaire:** Created neutral post-experiment feedback questions (`docs/feedback-form.md`).
 
 ---
-##  Lab 08 Artifacts Baseline (Customer Validation & Analytics)
+# README Update - Lab 08
 
-* **Validation Dataset:** Prepared test results CSV for 8 campus testers (`data/validation-results.csv`).
-* **Validation Summary:** Summarized customer testing methodology and outcomes (`docs/customer-validation-summary.md`).
-* **Analytics Insights:** Calculated 87.5% Task Success Rate and 4.13/5 Feedback Score (`docs/analytics-insights.md`).
-* **MVP Decision:** Formally decided to **REVISE & PROCEED** based on evidence (`docs/mvp-decision.md`).
+## Lab 08: Customer Validation and Analytics Sheet
+
+### Validation Objective
+The objective of this lab was to evaluate the core user workflows of our Smart Campus Lost-and-Found System MVP (`v1.0-EJS`). We tested item reporting, searching, and status management with real target users (Students and Security Staff) to collect empirical evidence, measure usability metrics, and inform our MVP prototype decision.
+
+### Prototype Version Tested
+- **Version:** `v1.0-EJS`
+- **Link:** [Link to MVP Demo / Repository]
+- **Screenshots:** `/screenshots/lab08-powerbi-dashboard.png`
+
+### Analytics Summary
+| Metric | Result |
+|---|---:|
+| Total test users | 8 |
+| Task success rate | 87.5% |
+| Average feedback score | 4.12 / 5.00 |
+| Average interest level | 4.38 / 5.00 |
+| Main confusion point | Location Field Tagging & Category Filter Dropdown |
+
+### MVP Decision
+**Partially Validated (Revise Before Implementation)**  
+The team will revise the prototype based on user feedback before moving into full implementation. While high interest (4.38/5) and task success (87.5%) validate strong demand, key improvements are required for location input validation (`FR-1.2`), category filter contrast (`FR-2.2`), and security action buttons (`FR-3.2`).
+
+### Files Added
+- `/data/validation-results.xlsx`
+- `/data/validation-results.csv`
+- `/docs/customer-validation-summary.md`
+- `/docs/analytics-insights.md`
+- `/docs/mvp-decision.md`
+- `/screenshots/lab08-powerbi-dashboard.png`
+- `/docs/weekly-logbook.md`
