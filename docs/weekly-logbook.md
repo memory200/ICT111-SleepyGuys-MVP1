@@ -208,12 +208,12 @@ MVP Implementation Sprint 2 and Startup Metrics
 **Selected Case:** Smart Campus Lost and Found System
 
 ## Work Completed Today
-- Reviewed Sprint 1 prototype progress against requirement definitions[cite: 2].
-- Improved prototype data persistence using `localStorage` and structured CSV/JSON data sources[cite: 2].
-- Enhanced Search and Filtering functionality for real-time item discovery[cite: 2].
-- Developed Admin Status Update functionality allowing cases to transition from Pending to Claimed/Resolved[cite: 2].
-- Created and integrated the Startup/Product Metrics Dashboard using Power BI / JS summary cards[cite: 1, 2].
-- Executed end-to-end user flow testing and documented results in testing notes[cite: 2].
+- Reviewed Sprint 1 prototype progress against requirement definitions.
+- Improved prototype data persistence using `localStorage` and structured CSV/JSON data sources.
+- Enhanced Search and Filtering functionality for real-time item discovery.
+- Developed Admin Status Update functionality allowing cases to transition from Pending to Claimed/Resolved.
+- Created and integrated the Startup/Product Metrics Dashboard using Power BI / JS summary cards.
+- Executed end-to-end user flow testing and documented results in testing notes.
 
 ## Member Contributions
 | Member Name | Contribution | File/Feature Updated | GitHub Evidence |
@@ -224,28 +224,65 @@ MVP Implementation Sprint 2 and Startup Metrics
 | MIN KHANT MAUNG MAUNG | Power BI startup metrics dashboard & README update | `docs/startup-metrics.md`, `README.md`, `Lab11_Dashboard.pbix` | Commit / PR #4 |
 
 ## Requirements Addressed
-- **FR-03:** Item Detail View and Submission Form Validation[cite: 2, 3]
-- **FR-06:** Advanced Search & Filtering Mechanism[cite: 2, 3]
-- **FR-08:** Admin Status Management (Pending -> Claimed/Resolved)[cite: 2, 3]
-- **FR-12:** Startup & Product Metrics Dashboard[cite: 2, 3]
+- **FR-03:** Item Detail View and Submission Form Validation
+- **FR-06:** Advanced Search & Filtering Mechanism
+- **FR-08:** Admin Status Management (Pending -> Claimed/Resolved)
+- **FR-12:** Startup & Product Metrics Dashboard
 
 ## Metrics Added
-1. **Total Records:** Total submitted reports/items (Usage Metric)[cite: 2].
-2. **Pending Cases:** Active unresolved items (Status Metric)[cite: 2].
-3. **Resolved/Claimed Cases:** Successfully closed items (Status Metric)[cite: 2].
-4. **Top Category:** Item category frequency distribution (Category Metric)[cite: 2].
-5. **Average Resolution Time:** Operational response speed in days (Operational Metric)[cite: 2].
-6. **Task Success Rate:** User testing task completion percentage (Validation Metric)[cite: 2].
+1. **Total Records:** Total submitted reports/items (Usage Metric).
+2. **Pending Cases:** Active unresolved items (Status Metric).
+3. **Resolved/Claimed Cases:** Successfully closed items (Status Metric).
+4. **Top Category:** Item category frequency distribution (Category Metric).
+5. **Average Resolution Time:** Operational response speed in days (Operational Metric).
+6. **Task Success Rate:** User testing task completion percentage (Validation Metric).
 
 ## Problems Found
-- **Data Persistence Bug:** Initial form submissions were resetting upon browser refresh; resolved by linking state directly to browser `localStorage`[cite: 2].
-- **UI Responsiveness:** Metric cards were overlapping on smaller screen sizes; adjusted CSS flexbox layout[cite: 2].
-- **Data Dictionary Column Alignment:** Initial CSV import in Power BI had missing header mappings; fixed using 'Use First Row as Headers' in Power Query[cite: 1].
+- **Data Persistence Bug:** Initial form submissions were resetting upon browser refresh; resolved by linking state directly to browser `localStorage`.
+- **UI Responsiveness:** Metric cards were overlapping on smaller screen sizes; adjusted CSS flexbox layout.
+- **Data Dictionary Column Alignment:** Initial CSV import in Power BI had missing header mappings; fixed using 'Use First Row as Headers' in Power Query.
 
 ## Next Action Before Lab 12
-- Finalize user authentication logic for secure admin access[cite: 2, 3].
-- Implement mock email/SMS notifications for status changes[cite: 2, 3].
+- Finalize user authentication logic for secure admin access.
+- Implement mock email/SMS notifications for status changes.
 - Ensure all group members have visible commit histories on the repository before final evaluation[cite: 2].
-- **Objectives:** Build first working frontend prototype covering core screens, search logic, and admin status updates[cite: 8].
-- **Tasks Completed:** Built HTML/CSS/JS prototype in `/prototype/`, verified requirement mapping (`FR-1.1`, `FR-1.2`, `FR-2.2`, `FR-3.1`, `FR-3.2`), uploaded screenshot evidence to `/screenshots/`, updated README[cite: 8].
-- **Next Actions:** Enhance UI styling and prepare backend persistence layer for Sprint 2[cite: 8].
+- **Objectives:** Build first working frontend prototype covering core screens, search logic, and admin status updates.
+- **Tasks Completed:** Built HTML/CSS/JS prototype in `/prototype/`, verified requirement mapping (`FR-1.1`, `FR-1.2`, `FR-2.2`, `FR-3.1`, `FR-3.2`), uploaded screenshot evidence to `/screenshots/`, updated README.
+- **Next Actions:** Enhance UI styling and prepare backend persistence layer for Sprint 2.
+
+# Weekly Logbook - Lab 12
+
+## Group Name
+SleepyGuys
+
+## Project Title
+Smart Campus Lost and Found System
+
+## Lab Date
+Lab 12 - Landing Page and Digital Go-to-Market Sprint
+
+## Work Completed Today
+
+| Member Name | Contribution | File/Commit Evidence |
+| --- | --- | --- |
+| HTUN NAUNG OO | Built `/landing-page/index.html` & `style.css` with responsive layout and CTA integration | `landing-page/index.html` (Commit #1)|
+| MIN KHANT MAUNG MAUNG | Authored `/docs/landing-page-content.md` and `/docs/marketing-message.md` | `docs/landing-page-content.md` (Commit #2) |
+| AUNG KHANT ZAYAR OO| Developed `/docs/go-to-market-plan.md` and `/docs/acquisition-metrics.md` | `docs/go-to-market-plan.md` (Commit #3)|
+| AUNG HTET THU | Created `/data/acquisition-metrics-template.csv`, captured screenshots, and updated `README.md` | `README.md`, `data/acquisition-metrics-template.csv` (Commit #4)|
+
+## Landing Page Progress
+Designed and implemented a clean, functional web landing page containing a high-impact headline, clear problem/solution section, key feature list, responsible data privacy notice, and an interactive "Try Demo Prototype" CTA button that connects seamlessly to the working prototype.
+
+## Go-to-Market Progress
+Defined target early users as active campus students and administrative staff[cite: 7, 8, 13]. Selected three primary outreach channels: Class Chat Groups, Campus QR Code Posters at high-traffic zones (Library/Cafeteria), and Student Instagram Stories. Tailored distinct short marketing messages for each channel.
+
+## Metrics Plan
+Established 5 acquisition metrics: Landing Page Views (M-01), CTA Clicks (M-02), Demo Attempts (M-03), Feedback Responses (M-04), and Interest Conversion Rate (M-05). Created a structured tracking template in `/data/acquisition-metrics-template.csv`.
+
+## Problems Encountered
+- **CTA Routing:** Initial relative file pathing caused broken links between `/landing-page/` and `/prototype/`; resolved by standardizing relative directory paths (`../prototype/index.html`).
+- **Responsive Layout:** Feature cards were misaligned on mobile screen dimensions; adjusted CSS Grid and Flexbox properties.
+
+## Next Action Before Lab 13
+- Ensure all repository documentation, landing page files, and screenshot evidence are pushed to GitHub.
+- Review final system requirements traceability in preparation for the upcoming semester deliverable.
