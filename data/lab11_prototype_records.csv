@@ -1,0 +1,16 @@
+RecordID,SubmittedDate,LastUpdatedDate,ItemCategory,Location,Priority,CurrentStatus,ResolutionDays,RequirementID,OwnerRole
+R001,2026-07-15,2026-07-16,Electronics,Library,High,Returned,1,FR-03,Admin
+R002,2026-07-15,2026-07-18,Bag,Cafeteria,Medium,Claimed,3,FR-08,Admin
+R003,2026-07-16,2026-07-16,ID Card,Building 2,High,Pending,0,FR-08,Staff
+R004,2026-07-16,2026-07-20,Book,Classroom A,Low,Closed,4,FR-05,Admin
+R005,2026-07-17,2026-07-19,Electronics,Lobby,High,Pending,2,FR-06,Admin
+R006,2026-07-18,2026-07-18,Keys,Sports Complex,Medium,Pending,0,FR-01,Student
+R007,2026-07-18,2026-07-21,Electronics,IT Lab,High,Claimed,3,FR-01,Student
+R008,2026-07-19,2026-07-22,Clothing,Gym,Low,Closed,3,FR-02,Admin
+R009,2026-07-19,2026-07-19,Documents,Library,Medium,Pending,0,FR-01,Student
+R010,2026-07-20,2026-07-21,Accessories,Bus Stop,Low,Claimed,1,FR-01,Student
+R011,2026-07-20,2026-07-20,Electronics,Cafeteria,High,Pending,0,FR-01,Student
+R012,2026-07-21,2026-07-23,ID Card,Main Gate,High,Returned,2,FR-08,Admin
+R013,2026-07-21,2026-07-21,Bag,Student Center,Medium,Pending,0,FR-01,Student
+R014,2026-07-22,2026-07-24,Electronics,Science Building,High,Claimed,2,FR-01,Student
+R015,2026-07-22,2026-07-25,Book,Canteen,Low,Closed,3,FR-02,Admin
