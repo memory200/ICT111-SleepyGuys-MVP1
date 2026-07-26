@@ -133,3 +133,10 @@ Conduct opportunity scanning in Lab 2 to select and validate the primary venture
 ### Team Reflection
 - **Evidence-Based Approach:** Lab 07 protects our team from building unvalidated features by establishing clear metrics before full prototype development.
 - **Next Steps:** Conduct testing sessions with 5-10 target campus users and log results into `/data/experiment-results.csv`.
+
+## Lab 09 Logbook Entry
+
+- **HTUN NAUNG OO(Documentation Lead):** Created `legal-ethical-checklist.md` and `privacy-and-data-protection.md`.
+- **MIN KHANT MAUNG MAUNG (Frontend Developer):** Prepared `ip-and-third-party-assets.md` and `updated-requirements-note.md`.
+- **AUNG KHANT ZAYAR OO (Backend Developer):** Conducted security review and compiled `security-risk-check.md`.
+- **AUNG HTET THU (Project Lead):** Drafted `risk-register.md` and updated `README.md`.
