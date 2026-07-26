@@ -134,6 +134,58 @@ Conduct opportunity scanning in Lab 2 to select and validate the primary venture
 - **Evidence-Based Approach:** Lab 07 protects our team from building unvalidated features by establishing clear metrics before full prototype development.
 - **Next Steps:** Conduct testing sessions with 5-10 target campus users and log results into `/data/experiment-results.csv`.
 
+# Weekly Logbook - Lab 08: Customer Validation and Analytics
+
+## Date: July 2026
+**Group Name:** Sleepy Guys (ICT111)  
+**Prototype Version:** v1.0-EJS  
+
+---
+
+## 1. Weekly Objectives
+- Conduct customer validation testing on the Smart Campus Lost-and-Found System prototype (`v1.0-EJS`).
+- Test core user workflows with target users (Students and Security Staff).
+- Collect empirical usability data and feedback metrics in `validation-results.csv`.
+- Create a Power BI Analytics Dashboard to calculate DAX metrics (Task Success Rate, Average Completion Time, Satisfaction Scores).
+- Formulate an MVP decision based on validation analytics.
+
+---
+
+## 2. Team Member Contributions
+
+| Member | Role | Key Contributions | GitHub Evidence |
+|---|---|---|---|
+| **HTUN NAUNG OO** | Project Lead / Data Analyst | Designed validation test scenarios, collected test data, and exported `validation-results.csv` & `.xlsx`. | Created dataset files & updated `/docs/customer-validation-summary.md` |
+| **MIN KHANT MAUNG MAUNG** | Power BI Lead | Built Power BI Dashboard, implemented DAX measures (`Task Success Rate`, `Average Ease of Use`, `Average Interest Level`). | Added dashboard screenshot to `/screenshots/` & updated README |
+| **AUNG KHANT ZAYAR OO** | UX / Quality Analyst | Facilitated testing sessions with users (`U01` to `U08`), analyzed confusion points (FR-1.2, FR-2.2). | Authored `/docs/analytics-insights.md` |
+| **AUNG HTET THU ** | Documentation Lead | Drafted MVP Decision Document, logged requirement changes, and updated weekly logbook. | Created `/docs/mvp-decision.md` & `/docs/weekly-logbook.md` |
+
+---
+
+## 3. Key Validation Results & Metrics Summary
+- **Total Tests Conducted:** 8 sessions (Users `U01` to `U08`)
+- **Completed Tasks:** 7 out of 8
+- **Task Success Rate:** 87.5%
+- **Average Completion Time:** 63.1 seconds
+- **Average Ease of Use Score:** 4.12 / 5.00
+- **Average Interest Level:** 4.38 / 5.00
+
+---
+
+## 4. Identified Usability Friction Points & Action Plan
+1. **FR-1.2 (Location Validation Issue):** `User_05` failed the found item report task due to unclear required location tag inputs.
+   - *Action:* Make the location input a mandatory dropdown menu with clear campus building names.
+2. **FR-2.2 (Category Filter Contrast):** `User_02` noted that the search category dropdown had low visibility.
+   - *Action:* Improve visual contrast and text size of filter controls.
+3. **FR-3.2 (Admin Button Highlight):** `User_04` suggested highlighting the status update button on the Security Console.
+   - *Action:* Change status update button color to primary focus style.
+
+---
+
+## 5. MVP Decision
+**Partially Validated (Revise Before Final Implementation)**  
+The team will apply UI/UX revisions for `FR-1.2`, `FR-2.2`, and `FR-3.2` based on Lab 08 analytics before completing the final prototype deliverable.
+
 ## Lab 09 Logbook Entry
 
 - **HTUN NAUNG OO(Documentation Lead):** Created `legal-ethical-checklist.md` and `privacy-and-data-protection.md`.
