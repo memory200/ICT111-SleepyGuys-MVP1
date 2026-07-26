@@ -65,8 +65,6 @@ A centralized **Smart Campus Lost-and-Found Web Platform** where students can qu
 
 ---
 
-# README Update - Lab 04
-
 ## Lab 04: User Persona, Requirements, and User Stories
 
 ### Primary Target User
@@ -110,8 +108,6 @@ All group members (ICT111 - Sleepy Guys) contributed to this repository through 
 
 ---
 
-# README Update - Lab 05
-
 ## Lab 05: Product Concept and UI/UX Wireframe
 
 ### Product Concept
@@ -142,23 +138,24 @@ Users start at the Homepage where they can choose to either report a found item 
 All group members (ICT111 - Sleepy Guys) contributed to wireframe design, workflow mapping, requirement linking, and documentation updates in this shared GitHub repository.
 
 
-##  Lab 06: Business Model & Technical Architecture
+## Lab 06 Summary
+In Lab 06, our group connected our product concept, requirements, user stories, and wireframes into business logic and technical structure for the Smart Campus Lost-and-Found System. We defined key value propositions, user segments, tech stack components, and data flows to ensure our MVP scales smoothly into the final prototype deliverable.
 
-###  Documentation Links
--  [Business Model Canvas](docs/business-model-canvas.md)
--  [Feature-Value Mapping Matrix](docs/feature-value-mapping.md)
--  [Technical Architecture & Stack Selection](docs/technical-architecture.md)
--  [Data Structure & Entity Specification](docs/data-structure.md)
--  [Sample Records Dataset](data/sample-records.csv)
--  [Weekly Logbook](docs/weekly-logbook.md)
+## Files Added or Updated
 
-## Artifacts Baseline (Business Model & Technical Architecture)
+- [Business Model Canvas](docs/business-model-canvas.md)
+- [Feature-Value Mapping](docs/feature-value-mapping.md)
+- [Technical Architecture](docs/technical-architecture.md)
+- [Data Structure](docs/data-structure.md)
+- [System Architecture Diagram](diagrams/system-architecture.png)
+- [Data Flow Diagram](diagrams/data-flow.png)
+- [Weekly Logbook](docs/weekly-logbook.md)
 
-* **Business Model Canvas:** Defined all 9 BMC blocks specific to campus lost & found operations (`docs/business-model-canvas.md`).
-* **Feature-Value Mapping:** Mapped system features directly to user/business value and requirements (`docs/feature-value-mapping.md`).
-* **Technical Architecture:** Selected database-backed web application architecture using Node.js & Express (`docs/technical-architecture.md`).
-* **Data Structure:** Specified logical entities (`ItemRecord`, `SecurityDeskOffice`) and field validations (`docs/data-structure.md`).
-* **Sample Dataset:** Created baseline CSV dataset for testing (`data/sample-records.csv`).
+## Technical Direction
+Our prototype uses a **Frontend + Express.js Web Server (EJS) with Local Dataset/JSON Storage** architecture (`v1.0-EJS`). This stack enables fast HTML rendering, easy photo file handling for item submissions (`FR-1.1`), responsive search filtering (`FR-2.2`), and clear admin status updates (`FR-3.2`) without complex external database overhead during validation testing.
+
+## Final Prototype Connection
+The business canvas and architecture defined in Lab 06 serve as the technical blueprint for our final project deliverable. They map our system requirements (`FR-1.1`, `FR-1.2`, `FR-2.2`, `FR-3.1`, `FR-3.2`) directly to data models and system components, ensuring that every user interface element and API endpoint directly fulfills documented user needs and business value.
 ##  Lab 07 Artifacts Baseline (MVP Experiment Design)
 
 * **Critical Assumptions:** Identified and ranked top risky assumptions using a Risk Matrix (`docs/critical-assumptions.md`).
