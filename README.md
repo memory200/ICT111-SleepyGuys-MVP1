@@ -247,3 +247,41 @@ All group members (ICT111 - Sleepy Guys) actively contributed to this lab's deli
 - **MIN KHANT MAUNG MAUNG:** Created `docs/ip-and-third-party-assets.md` and documented `docs/updated-requirements-note.md`[cite: 6].
 - **AUNG KHANT ZAYAR OO:** Conducted the security risk audit and compiled `docs/security-risk-check.md`[cite: 6].
 - **AUNG HTET THU:** Constructed `docs/risk-register.md`, updated `docs/weekly-logbook.md`, and integrated the Lab 09 section into `README.md`[cite: 6, 7].
+
+## Lab 10 - MVP Implementation Sprint 1
+
+### Sprint Goal
+Our goal in Lab 10 is to begin building the first working version of the prototype based on the approved requirements, wireframes, architecture, and responsible-design checks for the Smart Campus Lost-and-Found System[cite: 8, 9].
+
+### Implementation Approach
+- **Platform/tools:** Frontend Web Prototype (HTML5, CSS3, Vanilla JavaScript)[cite: 8]
+- **Backend status:** Frontend-only simulation (No complex backend overhead required for Sprint 1)[cite: 8]
+- **Data storage/simulation:** Web `localStorage` API with initial sample dataset[cite: 8]
+- **Prototype link or folder:** `/prototype/` directory (`/prototype/index.html`)[cite: 8]
+
+### Features Implemented in Sprint 1
+
+| Feature | Requirement ID | Status | Evidence |
+|---|---|---|---|
+| Homepage | FR-1.1, FR-2.2 | Working Draft | `/screenshots/homepage.png` |
+| Input form | FR-1.1, FR-1.2 | Working Draft | `/screenshots/input-form.png` |
+| Record list | FR-2.2 | Working Draft | `/screenshots/record-list.png` |
+| Search/filter | FR-2.2 | Working Draft | `/screenshots/record-list.png` |
+| Detail view | FR-3.1 | Working Draft | `/screenshots/detail-view.png` |
+| Status tracking | FR-3.2 | Working Draft | `/screenshots/admin-view.png` |
+| Admin view | FR-3.2 | Working Draft | `/screenshots/admin-view.png` |
+| Dashboard | NFR-01 | Working Draft | `/screenshots/homepage.png` |
+
+### Screenshots
+- **Homepage:** `/screenshots/homepage.png`[cite: 8]
+- **Input form:** `/screenshots/input-form.png`[cite: 8]
+- **Record list:** `/screenshots/record-list.png`[cite: 8]
+- **Detail view:** `/screenshots/detail-view.png`[cite: 8]
+- **Admin/status view:** `/screenshots/admin-view.png`[cite: 8]
+
+### Team Contribution
+All group members (ICT111 - Sleepy Guys) contributed to the same GitHub repository/page for Sprint 1 implementation[cite: 8, 9]:
+- **HTUN NAUNG OO:** Structured HTML views and layout setup in `/prototype/index.html`[cite: 8].
+- **MIN KHANT MAUNG MAUNG:** Designed responsive CSS styles in `/prototype/style.css`[cite: 8].
+- **AUNG KHANT ZAYAR OO:** Implemented JS data logic, search filtering, and status updates in `/prototype/script.js`[cite: 8].
+- **AUNG HTET THU:** Updated feature status tables, documented Sprint 1 progress, captured screenshot evidence, and updated `README.md` & weekly logbook[cite: 8].
