@@ -65,22 +65,44 @@ A centralized **Smart Campus Lost-and-Found Web Platform** where students can qu
 
 ---
 
-## Lab 04 Documentation
-### Problem Statement
-Campus students and staff frequently lose belongings but face difficulties locating them due to scattered, unorganized informal chat groups that suffer from message overload.
+# README Update - Lab 04
 
-### Solution Direction
-A centralized **Smart Campus Lost-and-Found Web System** allowing users to search categorized listings, upload found item reports, and view clear physical collection points at campus security desks.
+## Lab 04: User Persona, Requirements, and User Stories
 
----
+### Primary Target User
+The primary target users of our Smart Campus Lost-and-Found System are **University Students** who frequently lose or find personal items on campus, as well as **Campus Security Staff** responsible for managing and verifying lost-and-found claims.
 
-##  Lab 04: Artifacts Baseline
+### Persona Summary
+- **Persona name:** Min Thuta (Campus Student) & U Ba Maung (Security Officer)
+- **User type:** Student / Campus Staff
+- **Main goal:** Quickly report found items, search for lost personal belongings, and streamline the claim verification process.
+- **Main pain point:** High friction in physical reporting, lack of immediate visual proof/photo attachments, and slow status tracking.
+- **Current workaround:** Asking around in social media groups or manually visiting the physical security office.
 
-* **User Target:** Defined user persona baseline (`docs/user-personal.md`)
-* **System Requirements:** Established Functional & Non-Functional requirements (`docs/system-requirements.md`)
-* **User Stories:** Authored user stories with testable Acceptance Criteria (`docs/user-stories.md`)
-* **MVP Scope:** Prioritized core features using MoSCoW framework (`docs/mvp-feature-list.md`)
-* **Diagrams:** Integrated User Flow and Use Case diagrams (`diagram/` folder)
+### Key Requirements
+| Req ID | Requirement | Priority | Related Evidence |
+|---|---|---|---|
+| FR-1.1 | The system shall allow users to upload item photos when submitting a lost/found report. | Must | Validated in Lab 08 (`User_01`, `User_07`) |
+| FR-1.2 | The system shall validate required location tags for found items. | Must | Identified issue in Lab 08 (`User_05`) |
+| FR-2.2 | The system shall provide a search bar and category filter dropdown. | Must | Tested in Lab 08 (`User_02`, `User_06`) |
+| FR-3.1 | The system shall display security desk location and pickup hours. | High | Validated in Lab 08 (`User_03`) |
+| FR-3.2 | The system shall allow security staff to update item status to 'Claimed'. | Must | Tested in Lab 08 (`User_04`, `User_08`) |
+| NFR-01 | The user interface shall load search results within 2 seconds. | Must | Performance tested in Lab 08 |
+
+### MVP Feature Scope
+| Feature | Priority | Included in Final Prototype? |
+|---|---|---|
+| Found Item Photo Upload | Must | Yes |
+| Keyword Search & Category Filter | Must | Yes |
+| Security Desk Map & Location Info | High | Yes |
+| Claim Status Update Console (Admin) | Must | Yes |
+
+### Diagram Links
+- **User flow diagram:** `/docs/diagrams/user-flow.png`
+- **Use case diagram:** `/docs/diagrams/use-case.png`
+
+### GitHub Contribution Evidence
+All group members (ICT111 - Sleepy Guys) contributed to this repository through commits, issues, feature implementations, and documentation updates.
 
 ### Diagrams
 ![User Flow Diagram](diagram/flowchart.png)
