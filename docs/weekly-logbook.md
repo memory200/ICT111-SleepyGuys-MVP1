@@ -198,6 +198,54 @@ The team will apply UI/UX revisions for `FR-1.2`, `FR-2.2`, and `FR-3.2` based o
 **Group Name:** Sleepy Guys (ICT111)  
 **Prototype Version:** v1.0-MVP  
 
+# Weekly Logbook - Lab 11
+
+## Lab Topic
+MVP Implementation Sprint 2 and Startup Metrics
+
+## Group Case
+**Project Title:** ICT111 SleepyGuys MVP Project  
+**Selected Case:** Smart Campus Lost and Found System
+
+## Work Completed Today
+- Reviewed Sprint 1 prototype progress against requirement definitions[cite: 2].
+- Improved prototype data persistence using `localStorage` and structured CSV/JSON data sources[cite: 2].
+- Enhanced Search and Filtering functionality for real-time item discovery[cite: 2].
+- Developed Admin Status Update functionality allowing cases to transition from Pending to Claimed/Resolved[cite: 2].
+- Created and integrated the Startup/Product Metrics Dashboard using Power BI / JS summary cards[cite: 1, 2].
+- Executed end-to-end user flow testing and documented results in testing notes[cite: 2].
+
+## Member Contributions
+| Member Name | Contribution | File/Feature Updated | GitHub Evidence |
+|---|---|---|---|
+| HTUN NAUNG OO | Data handling, localStorage logic & testing notes | `prototype/script.js`, `docs/prototype-testing-notes.md` | Commit / PR #1 |
+| AUNG HTET THU | Search & Filter component & status documentation | `prototype/index.html`, `docs/feature-implementation-status.md` | Commit / PR #2 |
+| AUNG KHANT ZAYAR OO | Admin status update feature & modal detail view | `prototype/script.js`, `prototype/style.css` | Commit / PR #3 |
+| MIN KHANT MAUNG MAUNG | Power BI startup metrics dashboard & README update | `docs/startup-metrics.md`, `README.md`, `Lab11_Dashboard.pbix` | Commit / PR #4 |
+
+## Requirements Addressed
+- **FR-03:** Item Detail View and Submission Form Validation[cite: 2, 3]
+- **FR-06:** Advanced Search & Filtering Mechanism[cite: 2, 3]
+- **FR-08:** Admin Status Management (Pending -> Claimed/Resolved)[cite: 2, 3]
+- **FR-12:** Startup & Product Metrics Dashboard[cite: 2, 3]
+
+## Metrics Added
+1. **Total Records:** Total submitted reports/items (Usage Metric)[cite: 2].
+2. **Pending Cases:** Active unresolved items (Status Metric)[cite: 2].
+3. **Resolved/Claimed Cases:** Successfully closed items (Status Metric)[cite: 2].
+4. **Top Category:** Item category frequency distribution (Category Metric)[cite: 2].
+5. **Average Resolution Time:** Operational response speed in days (Operational Metric)[cite: 2].
+6. **Task Success Rate:** User testing task completion percentage (Validation Metric)[cite: 2].
+
+## Problems Found
+- **Data Persistence Bug:** Initial form submissions were resetting upon browser refresh; resolved by linking state directly to browser `localStorage`[cite: 2].
+- **UI Responsiveness:** Metric cards were overlapping on smaller screen sizes; adjusted CSS flexbox layout[cite: 2].
+- **Data Dictionary Column Alignment:** Initial CSV import in Power BI had missing header mappings; fixed using 'Use First Row as Headers' in Power Query[cite: 1].
+
+## Next Action Before Lab 12
+- Finalize user authentication logic for secure admin access[cite: 2, 3].
+- Implement mock email/SMS notifications for status changes[cite: 2, 3].
+- Ensure all group members have visible commit histories on the repository before final evaluation[cite: 2].
 - **Objectives:** Build first working frontend prototype covering core screens, search logic, and admin status updates[cite: 8].
 - **Tasks Completed:** Built HTML/CSS/JS prototype in `/prototype/`, verified requirement mapping (`FR-1.1`, `FR-1.2`, `FR-2.2`, `FR-3.1`, `FR-3.2`), uploaded screenshot evidence to `/screenshots/`, updated README[cite: 8].
 - **Next Actions:** Enhance UI styling and prepare backend persistence layer for Sprint 2[cite: 8].
