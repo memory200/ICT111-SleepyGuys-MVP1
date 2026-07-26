@@ -110,20 +110,36 @@ All group members (ICT111 - Sleepy Guys) contributed to this repository through 
 
 ---
 
-##  Lab 05 Artifacts Baseline (Product Concept & UI/UX Wireframes)
+# README Update - Lab 05
 
-* **Product Concept:** Defined target user, problem, value proposition, and MVP scope boundary (`docs/product-concept.md`).
-* **Traceability Matrix:** Mapped all wireframe screens directly to functional system requirements (`docs/feature-requirement-mapping.md`).
-* **UI/UX Wireframes:** Designed and exported 6 core system screens with realistic campus data (`wireframes/` directory):
-  * `homepage.png` - Portal landing and recent listings preview.
-  * `input-form.png` - Found item submission with photo upload.
-  * `record-list.png` - Keyword search and multi-category filtering.
-  * `detail-view.png` - Detailed item info with security desk claim guidance.
-  * `dashboard.png` - Security analytics and metrics summary.
-  * `admin-view.png` - Staff management console for updating item statuses.
-* **Usability Checklist:** Verified interface consistency and requirement coverage (`docs/wireframe-usability-checklist.md`).
+## Lab 05: Product Concept and UI/UX Wireframe
 
----
+### Product Concept
+Our product, **Smart Campus Lost-and-Found System**, is a centralized digital web application designed for university students and security staff. It solves the issue of missing belongings on campus by offering instant photo upload reporting, interactive map/location tagging, fast keyword filtering, and an automated claim status management dashboard.
+
+### Requirement-Driven Screens
+List of core screens designed based on our system requirements and validated in Lab 08 testing:
+
+| Screen | Related Requirement IDs | Wireframe File |
+|---|---|---|
+| Homepage / Landing Page | FR-2.2, FR-3.1 | `/wireframes/homepage.png` |
+| Found Item Submission Form | FR-1.1, FR-1.2 | `/wireframes/input-form.png` |
+| Search & Lost Items List | FR-2.2 | `/wireframes/record-list.png` |
+| Item Detail & Location View | FR-1.2, FR-3.1 | `/wireframes/detail-view.png` |
+| Customer Validation Dashboard | FR-1.1, FR-3.2 | `/wireframes/dashboard.png` |
+| Admin / Security Action Console | FR-3.2 | `/wireframes/admin-view.png` |
+
+### User Flow
+Users start at the Homepage where they can choose to either report a found item or search for a lost item. 
+
+1. **Found Item Flow:** User fills in details $\rightarrow$ attaches photo (`FR-1.1`) $\rightarrow$ selects location tag (`FR-1.2`) $\rightarrow$ submits report.
+2. **Search Lost Item Flow:** User searches by keyword/category (`FR-2.2`) $\rightarrow$ views item details & security desk location (`FR-3.1`) $\rightarrow$ claims item at security desk.
+3. **Security Admin Flow:** Security staff log into the Console $\rightarrow$ verify claim $\rightarrow$ update item status to 'Claimed' (`FR-3.2`).
+
+- **User Flow Diagram Link:** `/diagrams/user-flow.png`
+
+### Team Contribution
+All group members (ICT111 - Sleepy Guys) contributed to wireframe design, workflow mapping, requirement linking, and documentation updates in this shared GitHub repository.
 
 
 ##  Lab 06: Business Model & Technical Architecture
