@@ -285,3 +285,59 @@ All group members (ICT111 - Sleepy Guys) contributed to the same GitHub reposito
 - **MIN KHANT MAUNG MAUNG:** Designed responsive CSS styles in `/prototype/style.css`[cite: 8].
 - **AUNG KHANT ZAYAR OO:** Implemented JS data logic, search filtering, and status updates in `/prototype/script.js`[cite: 8].
 - **AUNG HTET THU:** Updated feature status tables, documented Sprint 1 progress, captured screenshot evidence, and updated `README.md` & weekly logbook[cite: 8].
+
+## Lab 11: MVP Implementation Sprint 2 and Startup Metrics
+
+### Prototype Progress
+In Lab 11 (Sprint 2), the SleepyGuys group improved the prototype from a basic frontend implementation into a fully functional and measurable startup solution:
+- **Enhanced Data Handling:** Implemented structured data persistence and simulated database logic using `localStorage` and `data.json` / CSV datasets[cite: 2].
+- **Advanced Search & Filtering:** Upgraded search capabilities to allow real-time filtering by category, status, and device/location[cite: 2].
+- **Admin Workflow & Status Management:** Built administrative status update features (e.g., updating cases from "Pending" to "Claimed" or "Closed")[cite: 2].
+- **Product Activity & Metrics:** Designed and embedded startup metrics dashboards to monitor operational performance and system usage[cite: 2].
+
+---
+
+### Implemented / Improved Features
+| Requirement ID | Feature Description | Status | Evidence |
+|---|---|---|---|
+| **FR-03** | Item Reporting Form with Validation | Completed | `screenshots/input-form.png` |
+| **FR-06** | Search & Filter Record List | Completed | `screenshots/record-list-search.png` |
+| **FR-08** | Admin Status Management | Completed | `screenshots/admin-status-update.png` |
+| **FR-12** | Startup/Product Metrics Dashboard | Completed | `screenshots/metrics-dashboard.png` |
+
+---
+
+### Startup/Product Metrics
+The following 6 metrics were established and documented in `/docs/startup-metrics.md` to evaluate system activity[cite: 2]:
+1. **Total Records (Usage Metric):** Total number of submitted records (Current: 15)[cite: 2].
+2. **Pending Cases (Status Metric):** Unresolved items awaiting action (Current: 7)[cite: 2].
+3. **Resolved/Claimed Cases (Status Metric):** Successfully resolved cases (Current: 8)[cite: 2].
+4. **Top Category (Category Metric):** Most active item category (Current: Electronics - 40%)[cite: 2].
+5. **Average Resolution Time (Operational Metric):** Average days to resolve a case (Current: 2.5 days)[cite: 2].
+6. **Task Success Rate (Validation Metric):** User task completion rate during testing (Current: 85%)[cite: 2].
+
+---
+
+### Prototype Screenshots
+- **Homepage:** `![Homepage](screenshots/homepage.png)`[cite: 2]
+- **Input Form:** `![Input Form](screenshots/input-form.png)`[cite: 2]
+- **Record List & Search:** `![Record List](screenshots/record-list-search.png)`[cite: 2]
+- **Item Detail View:** `![Item Detail](screenshots/item-detail.png)`[cite: 2]
+- **Admin Status Update:** `![Admin View](screenshots/admin-status-update.png)`[cite: 2]
+- **Metrics Dashboard:** `![Dashboard](screenshots/metrics-dashboard.png)`[cite: 2]
+
+---
+
+### Member Contributions
+- **HTUN NAUNG OO:** Upgraded data handling logic, implemented localStorage integration, and documented testing notes in `/docs/prototype-testing-notes.md`[cite: 2].
+- **MIN KHANT MAUNG MAUNG:** Developed dynamic search/filter features and updated `/docs/feature-implementation-status.md`[cite: 2].
+- **AUNG KHANT ZAYAR OO:** Designed admin status update UI components and detail views[cite: 2].
+- **AUNG HTET THU:** Built the Power BI startup metrics dashboard and authored `/docs/startup-metrics.md`[cite: 2].
+- **HTUN NAUNG OO:** Updated GitHub repository structure, organized screenshot evidence, and updated `README.md`[cite: 2].
+
+---
+
+### Remaining Work
+- Finalize complete user authentication and role-based permissions[cite: 2].
+- Add automated email/SMS alert notifications for status changes[cite: 2].
+- Conduct final end-to-end user acceptance testing prior to the final semester submission[cite: 2].
