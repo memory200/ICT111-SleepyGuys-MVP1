@@ -192,3 +192,12 @@ The team will apply UI/UX revisions for `FR-1.2`, `FR-2.2`, and `FR-3.2` based o
 - **MIN KHANT MAUNG MAUNG (Frontend Developer):** Prepared `ip-and-third-party-assets.md` and `updated-requirements-note.md`.
 - **AUNG KHANT ZAYAR OO (Backend Developer):** Conducted security review and compiled `security-risk-check.md`.
 - **AUNG HTET THU (Project Lead):** Drafted `risk-register.md` and updated `README.md`.
+
+## Lab 10: MVP Implementation Sprint 1
+
+**Group Name:** Sleepy Guys (ICT111)  
+**Prototype Version:** v1.0-MVP  
+
+- **Objectives:** Build first working frontend prototype covering core screens, search logic, and admin status updates[cite: 8].
+- **Tasks Completed:** Built HTML/CSS/JS prototype in `/prototype/`, verified requirement mapping (`FR-1.1`, `FR-1.2`, `FR-2.2`, `FR-3.1`, `FR-3.2`), uploaded screenshot evidence to `/screenshots/`, updated README[cite: 8].
+- **Next Actions:** Enhance UI styling and prepare backend persistence layer for Sprint 2[cite: 8].
