@@ -32,3 +32,32 @@
 | FR-15 | Privacy/responsible data handling | Data Collection | Pending | Completed |	AUNG HTET THU | `docs/startup-metrics.md` | Anonymized user details in activity logs. |
 | FR-16 | Final prototype traceability | Documentation | Pending | Completed | 	AUNG HTET THU| `README.md` | Requirement mapping complete in README & docs. |
 * **HTUN NAUNG OO:** Owned **FR-05** (Startup Metrics Dashboard & Visualizations).
+# Feature Implementation Status & Requirement Traceability Matrix (Lab 14)
+
+**Group Name:** SleepyGuys  
+**Project:** Smart Campus Lost and Found System  
+
+---
+
+## 1. Prototype Functionality Audit (FR-01 to FR-12)
+
+| Req ID | Required Functionality | Prototype Screen / Module | Status | Evidence / Notes |
+| :--- | :--- | :--- | :--- | :--- |
+| **FR-01** | Problem-specific homepage / landing screen | `landing-page/index.html` | Completed | Landing page with value proposition & CTA |
+| **FR-02** | Primary user pathway | `prototype/index.html` | Completed | Seamless end-to-end report and search flow |
+| **FR-03** | User input or data submission | `prototype/index.html` (Report Form) | Completed | Form inputs for reporting lost/found items |
+| **FR-04** | Data storage or simulated storage | `prototype/js/app.js` (LocalStorage) | Completed | LocalStorage persistence across user sessions |
+| **FR-05** | View records / list | Dashboard Grid / List View | Completed | Grid layout showing active lost and found items |
+| **FR-06** | Search / filter / category | Search & Filter Bar | Completed | Multi-criteria search by category and location |
+| **FR-07** | Detail view | Item Detail Modal | Completed | Modal showing full description, image, and status |
+| **FR-08** | Status / progress tracking | Status Badges | Completed | Visual badges for "Unclaimed", "Pending", "Claimed" |
+| **FR-09** | Admin / manager function | Admin Status Toggle | Completed | Admin ability to update item claim status |
+| **FR-10** | Validation and feedback | Form Validation & Alerts | Completed | Validation rules and submission feedback |
+| **FR-11** | Dashboard / summary / metrics | Startup Metrics Widget | Completed | Total items, recovery rate, and average claim time |
+| **FR-12** | Traceability | `docs/system-requirements.md` | Completed | Full mapping between reqs, user stories, and code |
+
+---
+
+## 2. Requirement Traceability Summary
+
+All 12 core functional requirements (`FR-01` to `FR-12`) have been fully implemented, verified, and linked directly to user stories and system requirements in the repository.
