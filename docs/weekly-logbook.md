@@ -286,3 +286,66 @@ Established 5 acquisition metrics: Landing Page Views (M-01), CTA Clicks (M-02),
 ## Next Action Before Lab 13
 - Ensure all repository documentation, landing page files, and screenshot evidence are pushed to GitHub.
 - Review final system requirements traceability in preparation for the upcoming semester deliverable.
+# Weekly Logbook & Progress Tracker (Lab 10 - Lab 14)
+
+**Group Name:** SleepyGuys  
+**Project Title:** Smart Campus Lost and Found System  
+
+---
+
+## Lab 10: Sprint 1 - Core Prototype Development & Setup
+* **Date / Phase:** Sprint 1 Implementation
+* **Key Tasks Completed:**
+  * Initialized repository architecture and folder setup (`/docs/`, `/prototype/`, `/pitch/`).
+  * Defined core system requirements (`FR-01` to `FR-05`)[cite: 1].
+  * Developed base HTML structure and card grid layout for item listings[cite: 1].
+* **Challenges & Solutions:**
+  * *Challenge:* Setting up clear component hierarchy.
+  * *Solution:* Standardized CSS layout grid and responsive UI structure.
+
+---
+
+## Lab 11: Sprint 2 + System Metrics & Data Persistence
+* **Date / Phase:** Sprint 2 Feature Scaling
+* **Key Tasks Completed:**
+  * Implemented browser `localStorage` integration for persistent item reporting (`FR-03`, `FR-04`)[cite: 1].
+  * Added instant search bar and category/location filter logic (`FR-06`)[cite: 1].
+  * Integrated initial startup metrics widget (Total Items, Resolution Rate) (`FR-11`)[cite: 1].
+* **Challenges & Solutions:**
+  * *Challenge:* Data loss upon browser refresh.
+  * *Solution:* Built dynamic JSON serialization utilities using `localStorage.setItem` and `localStorage.getItem`.
+
+---
+
+## Lab 12: Landing Page & User Journey Refinement
+* **Date / Phase:** Marketing Portal Integration
+* **Key Tasks Completed:**
+  * Created dedicated `landing-page/index.html` with product value proposition, target user callouts, and direct CTA buttons (`FR-01`)[cite: 1].
+  * Connected landing page navigation smoothly to the interactive prototype application (`FR-02`)[cite: 1].
+  * Configured Google Tag Manager (GTM) event tracking for CTA user clicks.
+* **Challenges & Solutions:**
+  * *Challenge:* Relative directory linking between landing page and prototype app.
+  * *Solution:* Normalized folder path references across repository.
+
+---
+
+## Lab 13: Demo Preparation & User Testing Plan
+* **Date / Phase:** System Verification & Demo Scripting
+* **Key Tasks Completed:**
+  * Drafted sales scenario (`docs/sales-scenario.md`), demo script (`docs/demo-script.md`), and testing plan (`docs/user-testing-plan.md`)[cite: 1].
+  * Added Admin status toggles ("Unclaimed" -> "Claimed") for campus security verification (`FR-08`, `FR-09`)[cite: 1].
+  * Conducted prototype walkthrough and identified minor form validation bugs (`FR-10`)[cite: 1].
+* **Challenges & Solutions:**
+  * *Challenge:* Handling unverified claim submissions.
+  * *Solution:* Added claim detail modal and status badge update workflow for administrative staff.
+
+---
+
+## Lab 14: Final MVP Release & Venture Pitch Finalization
+* **Date / Phase:** Final Release & Project Polish
+* **Key Tasks Completed:**
+  * Finalized requirement traceability matrix mapping `FR-01` to `FR-12` in `docs/feature-implementation-status.md`[cite: 1].
+  * Authored `docs/final-prototype-report.md`, `docs/final-demo-script.md`, `docs/final-reflection.md`, and `docs/final-submission-checklist.md`[cite: 1].
+  * Updated `pitch/final-pitch-outline.md` (10-slide venture presentation structure)[cite: 1, 4].
+  * Cleaned up repository root and finalized `README.md` with contribution details[cite: 1, 3].
+* **Outcome:** Prototype fully functional, documented, and ready for lecturer submission[cite: 1].
