@@ -372,3 +372,49 @@ The landing page directly aligns with `system-requirements.md` by highlighting c
 | MIN KHANT MAUNG MAUNG | Drafted Landing Page content copy and channel marketing messages | Commit / PR #2 |
 | AUNG KHANT ZAYAR OO | Formulated Go-to-Market strategy and acquisition metrics framework | Commit / PR #3 |
 | AUNG HTET THU | Created CSV metrics tracking template, captured screenshots, and updated README | Commit / PR #4 |
+# Smart Campus Lost and Found System
+
+## Group Members
+| Name | Role | Main Contribution |
+|---|---|---|
+| Htun Naung Oo | Team Lead / Developer | Project Architecture, Prototype Logic, Documentation |
+| SleepyGuys Team | Contributor | Requirement Traceability, User Testing & Pitch Prep |
+
+## Project Overview
+The **Smart Campus Lost and Found System** is a centralized web platform designed to streamline lost item reporting, searching, and verification across university campuses.
+
+## Target Users
+* University Students & Faculty Members
+* Campus Security & Administrative Staff
+
+## Problem Solved
+Eliminates fragmented communication across informal social media groups, providing a single, search-filtered platform with secure claim verification.
+
+## Final Prototype
+- **Prototype folder/link:** `/prototype/index.html` (or `/prototype/final-prototype-link.md`)
+- **Landing page link:** `/landing-page/index.html`
+- **Final demo link:** See `/docs/final-demo-script.md`
+
+## Final Documentation
+- System requirements: `/docs/system-requirements.md`
+- User stories: `/docs/user-stories.md`
+- MVP feature list: `/docs/mvp-feature-list.md`
+- Feature implementation status: `/docs/feature-implementation-status.md`
+- Final prototype report: `/docs/final-prototype-report.md`
+- Final demo script: `/docs/final-demo-script.md`
+- Final reflection: `/docs/final-reflection.md`
+
+## Screenshots
+* `/screenshots/final-homepage.png`
+* `/screenshots/final-input-form.png`
+* `/screenshots/final-record-list.png`
+* `/screenshots/final-detail-view.png`
+* `/screenshots/final-dashboard.png`
+* `/screenshots/final-admin-view.png`
+
+## Pitch
+- Final pitch slides or outline: `/pitch/final-pitch-outline.md`
+
+## Data and Diagrams
+- Final sample data: `/data/`
+- Final diagrams: `/diagrams/`
